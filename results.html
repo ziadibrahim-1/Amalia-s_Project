@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalia's MathBook - Results</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Nunito:wght@400;600;700&family=Comic+Neue:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/results_new.css">
+</head>
+
+<body>
+    <div class="results-container">
+        <!-- Celebration Animation -->
+        <div class="celebration">
+            <div class="balloons" id="balloonContainer">
+                <div class="balloon balloon-1"></div>
+                <div class="balloon balloon-2"></div>
+                <div class="balloon balloon-3"></div>
+                <div class="balloon balloon-4"></div>
+                <div class="balloon balloon-5"></div>
+            </div>
+            <!-- <div class="fireworks" id="fireworksContainer"></div> -->
+        </div>
+
+        <div class="pyro">
+            <div class="before"></div>
+            <div class="after"></div>
+        </div>
+
+        <!-- Celebration Video -->
+        <video id="celebrationVideo" class="celebration-video" autoplay playsinline></video>
+
+        <!-- Results Content -->
+        <div class="results-content">
+            <h1 class="results-title">🎉 Lesson Complete!</h1>
+
+            <!-- Score Display -->
+            <div class="score-display">
+                <div class="score-box">
+                    <span class="score-number" id="finalScore">0</span>
+                    <span class="score-total">/ <span id="totalQuestions">10</span></span>
+                </div>
+                <p class="score-label">Correct Answers</p>
+            </div>
+
+            <!-- Stars Rating -->
+            <div class="stars-section">
+                <div class="stars" id="starsDisplay"></div>
+                <p id="performanceMessage" class="performance-message"></p>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button class="btn btn-retry" onclick="retryLesson()">
+                    🔄 Retry Lesson
+                </button>
+                <button class="btn btn-back" onclick="backToLessons()">
+                    📚 Back to Lessons
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/navigation.js"></script>
+    <script src="js/results.js"></script>
+</body>
+
+</html>

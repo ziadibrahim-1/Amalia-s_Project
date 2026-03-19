@@ -1,0 +1,80 @@
+{
+  "lessonId": "u6_l1",
+  "unitId": "unit6",
+  "title": "Representing Data with Pictures",
+  "description": "Count objects and organize data",
+  "questions": [
+    {
+      "id": "u6_l1_q1",
+      "unitId": "unit6",
+      "lessonId": "u6_l1",
+      "type": "mcq",
+      "title": "Count the Fruits",
+      "instruction": "Count each type of fruit. How many strawberries are there?",
+      "data": {
+        "questionImage": "./src/images/unit6/lesson1/fruits_scattered.png",
+        "options": ["9", "6", "7", "8"],
+        "correctAnswer": "9"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l1_q2",
+      "unitId": "unit6",
+      "lessonId": "u6_l1",
+      "type": "mcq",
+      "title": "Count the Shapes",
+      "instruction": "Count each type of shape. How many circles are there?",
+      "data": {
+        "questionImage": "./src/images/unit6/lesson1/shapes_scattered.png",
+        "options": ["6", "7", "8", "9"],
+        "correctAnswer": "7"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l1_q3",
+      "unitId": "unit6",
+      "lessonId": "u6_l1",
+      "type": "mcq",
+      "title": "Count the Vegetables",
+      "instruction": "Count each type of vegetable. How many tomatoes are there?",
+      "data": {
+        "questionImage": "./src/images/unit6/lesson1/vegetables_scattered.png",
+        "options": ["5", "6", "7", "8"],
+        "correctAnswer": "6"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l1_q4",
+      "unitId": "unit6",
+      "lessonId": "u6_l1",
+      "type": "mcq",
+      "title": "Count the Animals",
+      "instruction": "Count each type of animal card. How many bird cards are there?",
+      "data": {
+        "questionImage": "./src/images/unit6/lesson1/animals_scattered.png",
+        "options": ["4", "5", "6", "7"],
+        "correctAnswer": "7"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

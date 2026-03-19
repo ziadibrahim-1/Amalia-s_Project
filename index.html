@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalia's Learning Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Nunito:wght@400;600;700&family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div id="welcomeScreen" class="screen active">
+            <div class="welcome-content">
+                <h1 class="welcome-title">🎮 Welcome to Amalia's Quiz!</h1>
+                <p class="welcome-subtitle">Pick your difficulty level and start learning!</p>
+                
+                <div class="difficulty-buttons">
+                    <button class="difficulty-btn easy-btn" data-difficulty="easy">
+                        <span class="difficulty-icon">⭐</span>
+                        <span>Easy</span>
+                    </button>
+                    <button class="difficulty-btn medium-btn" data-difficulty="medium">
+                        <span class="difficulty-icon">⭐⭐</span>
+                        <span>Medium</span>
+                    </button>
+                    <button class="difficulty-btn hard-btn" data-difficulty="hard">
+                        <span class="difficulty-icon">⭐⭐⭐</span>
+                        <span>Hard</span>
+                    </button>
+                </div>
+
+                <button class="mathbook-btn" onclick="window.location.href='units.html'">
+                    <span class="mathbook-icon">📚</span>
+                    <span>Go to MathBook</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quizScreen" class="screen">
+            <div class="quiz-header">
+                <div class="score-section">
+                    <div class="score-display">Score: <span id="currentScore">0</span>/<span id="totalQuestions">30</span></div>
+                </div>
+                <div class="question-counter">
+                    <span id="questionNumber">1</span> / <span id="totalQuestions2">30</span>
+                </div>
+                <button id="exitButton" class="btn btn-exit">✕ Exit</button>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+                <p class="progress-text"><span id="progressPercent">0</span>% Complete</p>
+            </div>
+
+            <div class="quiz-content">
+                <!-- Question Display -->
+                <div class="question-section">
+                    <h2 id="questionText" class="question-text"></h2>
+                    
+                    <!-- Image for question (if applicable) -->
+                    <div id="questionImage" class="question-image"></div>
+                </div>
+
+                <!-- Answer Options (Multiple Choice) -->
+                <div class="answers-container" id="answersContainer"></div>
+
+                <!-- Matching Container -->
+                <div id="matchingContainer" class="matching-container hidden">
+                    <div class="matching-pairs">
+                        <div class="matching-column">
+                            <div id="matchingLeft" class="matching-column-items"></div>
+                        </div>
+                        <div class="matching-column">
+                            <div id="matchingRight" class="matching-column-items"></div>
+                        </div>
+                    </div>
+                    <button id="submitMatchingButton" class="btn btn-primary submit-matching-btn">Check Matches</button>
+                </div>
+
+                <!-- Feedback Section (hidden by default) -->
+                <div id="feedbackSection" class="feedback-section hidden">
+                    <div class="feedback-content">
+                        <img id="feedbackImage" class="feedback-image" src="" alt="Feedback" style="display:none;">
+                        <video id="feedbackVideo" class="feedback-video" style="display:none; width: 200px; height: 200px; border-radius: 15px;"></video>
+                        <p id="feedbackMessage" class="feedback-message"></p>
+                        <p id="correctAnswerDisplay" class="correct-answer-display hidden"></p>
+                        <button id="nextButton" class="btn btn-primary next-btn">Next Question</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Screen -->
+        <div id="endScreen" class="screen">
+            <div class="end-content">
+                <h1 class="end-title">🎉 Great Job!</h1>
+                <p class="final-score">You scored: <span id="finalScore">0</span> / <span id="finalTotal">30</span></p>
+                
+                <!-- Star Rating -->
+                <div class="stars-container">
+                    <div id="starsDisplay" class="stars"></div>
+                </div>
+
+                <!-- Performance Message -->
+                <p id="performanceMessage" class="performance-message"></p>
+
+                <!-- Replay Button -->
+                <button id="replayButton" class="btn btn-primary replay-btn">
+                    🔄 Play Again
+                </button>
+            </div>
+        </div>
+    </div>
+   
+
+    <!-- Audio Elements -->
+    <!-- <audio id="successSound" preload="auto">
+        <source src="./ElevenLabs_2026-01-23T22_26_37_Rachel_pre_sp97_s92_sb75_f2-5.mp3" type="audio/mpeg">
+    </audio> -->
+    <audio id="tryAgainSound" preload="auto">
+        <source src="data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAAB9AAACABAAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBg==" type="audio/wav">
+    </audio>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

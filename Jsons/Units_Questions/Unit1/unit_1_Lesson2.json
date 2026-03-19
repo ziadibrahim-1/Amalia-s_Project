@@ -1,0 +1,67 @@
+[
+  
+
+  {
+    "id": "u1_l2_q2",
+    "unitId": "unit1",
+    "lessonId": "u1_l2",
+    "type": "drag_match",
+    "title": "Match Pictures to Numbers",
+    "instruction": "Drag each picture to the correct number",
+    "data": {
+      "pairs": [
+        { "image": "src/images/unit1/lesson2/Frogs.png", "correct": 3 },
+        { "image": "src/images/unit1/lesson2/Flowers.png", "correct": 5 },
+        { "image": "src/images/unit1/lesson2/Ice_Cream.png", "correct": 2 }
+      ]
+    },
+    "ui": {
+      "showFeedback": true,
+      "autoNext": true,
+      "sound": true
+    }
+  },
+
+   {
+    "id": "u1_l2_q3",
+    "unitId": "unit1",
+    "lessonId": "u1_l2",
+    "type": "drag_match",
+    "title": "Match Pictures to Numbers",
+    "instruction": "Drag each picture to the correct number",
+    "data": {
+      "pairs": [
+        { "image": "src/images/unit1/lesson2/Cats.png", "correct": 3 },
+        { "image": "src/images/unit1/lesson2/FLFL.png", "correct": 4 },
+        { "image": "src/images/unit1/lesson2/Plane.png", "correct": 1 }
+      ]
+    },
+    "ui": {
+      "showFeedback": true,
+      "autoNext": true,
+      "sound": true
+    }
+  },
+
+
+  {
+    "id": "u1_l2_q4",
+    "unitId": "unit1",
+    "lessonId": "u1_l2",
+    "type": "drag_match",
+    "title": "Match More Pictures",
+    "instruction": "Match each picture with the correct number",
+    "data": {
+      "pairs": [
+        { "image": "src/images/unit1/lesson2/Ants.png", "correct": 5 },
+        { "image": "src/images/unit1/lesson2/Tomatos.png", "correct": 4 },
+        { "image": "src/images/unit1/lesson2/Dolphins.png", "correct": 2 }
+      ]
+    },
+    "ui": {
+      "showFeedback": true,
+      "autoNext": true,
+      "sound": true
+    }
+  }
+]

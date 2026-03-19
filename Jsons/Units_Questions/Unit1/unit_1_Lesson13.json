@@ -1,0 +1,200 @@
+[
+    {
+        "id": "u1_l13_q1",
+        "unitId": "unit1",
+        "lessonId": "u1_l13",
+        "type": "tap_count",
+        "title": "Count the oranges",
+        "instruction": "Count the oranges and choose the correct number",
+        "data": {
+            "mode": "select_number",
+            "questions": [
+                {
+                    "image": "./src/images/unit1/lesson13/orange.png",
+                    "correctCount": 4
+                }
+            ]
+        },
+        "ui": {
+            "showFeedback": true,
+            "autoNext": true,
+            "sound": true
+        }
+    },
+    {
+        "id": "u1_l13_q2",
+        "unitId": "unit1",
+        "lessonId": "u1_l13",
+        "type": "tap_count",
+        "title": "Count the empty plate",
+        "instruction": "How many objects do you see?",
+        "data": {
+            "mode": "select_number",
+            "questions": [
+                {
+                    "image": "./src/images/unit1/lesson13/empty.png",
+                    "correctCount": 0
+                }
+            ]
+        },
+        "ui": {
+            "showFeedback": true,
+            "autoNext": true,
+            "sound": true
+        }
+    },
+    {
+        "id": "u1_l13_q3",
+        "unitId": "unit1",
+        "lessonId": "u1_l13",
+        "type": "tap_count",
+        "title": "Count the flowers",
+        "instruction": "Count the flowers and choose the correct number",
+        "data": {
+            "mode": "select_number",
+            "questions": [
+                {
+                    "image": "./src/images/unit1/lesson13/flowers.png",
+                    "correctCount": 5
+                }
+            ]
+        },
+        "ui": {
+            "showFeedback": true,
+            "autoNext": true,
+            "sound": true
+        }
+    },
+    {
+        "id": "u1_l13_q4",
+        "unitId": "unit1",
+        "lessonId": "u1_l13",
+        "type": "tap_count",
+        "title": "Count the empty pot",
+        "instruction": "How many flowers are there?",
+        "data": {
+            "mode": "select_number",
+            "questions": [
+                {
+                    "image": "./src/images/unit1/lesson13/empty2.png",
+                    "correctCount": 0
+                }
+            ]
+        },
+        "ui": {
+            "showFeedback": true,
+            "autoNext": true,
+            "sound": true
+        }
+    },
+    {
+        "id": "u1_l13_q5",
+        "unitId": "unit1",
+        "lessonId": "u1_l13",
+        "type": "tap_count",
+        "title": "Count the frogs",
+        "instruction": "Count the frogs and choose the correct number",
+        "data": {
+            "mode": "select_number",
+            "questions": [
+                {
+                    "image": "./src/images/unit1/lesson13/flowes2.png",
+                    "correctCount": 2
+                }
+            ]
+        },
+        "ui": {
+            "showFeedback": true,
+            "autoNext": true,
+            "sound": true
+        }
+    },
+    {
+        "id": "u1_l13_q6",
+        "unitId": "unit1",
+        "lessonId": "u1_l13",
+        "type": "tap_count",
+        "title": "Count the frogs",
+        "instruction": "Count the frogs and choose the correct number",
+        "data": {
+            "mode": "select_number",
+            "questions": [
+                {
+                    "image": "./src/images/unit1/lesson13/frog.png",
+                    "correctCount": 1
+                }
+            ]
+        },
+        "ui": {
+            "showFeedback": true,
+            "autoNext": true,
+            "sound": true
+        }
+    },
+    {
+        "id": "u1_l13_q7",
+        "unitId": "unit1",
+        "lessonId": "u1_l13",
+        "type": "tap_count",
+        "title": "Count the empty lily pad",
+        "instruction": "How many frogs are there?",
+        "data": {
+            "mode": "select_number",
+            "questions": [
+                {
+                    "image": "./src/images/unit1/lesson13/frog7.png",
+                    "correctCount": 7
+                }
+            ]
+        },
+        "ui": {
+            "showFeedback": true,
+            "autoNext": true,
+            "sound": true
+        }
+    },
+    {
+        "id": "u1_l13_q7",
+        "unitId": "unit1",
+        "lessonId": "u1_l13",
+        "type": "tap_count",
+        "title": "Count the empty lily pad",
+        "instruction": "How many frogs are there?",
+        "data": {
+            "mode": "select_number",
+            "questions": [
+                {
+                    "image": "./src/images/unit1/lesson13/empty3.png",
+                    "correctCount": 0
+                }
+            ]
+        },
+        "ui": {
+            "showFeedback": true,
+            "autoNext": true,
+            "sound": true
+        }
+    },
+    {
+        "id": "u1_l13_q7",
+        "unitId": "unit1",
+        "lessonId": "u1_l13",
+        "type": "tap_count",
+        "title": "Count the empty lily pad",
+        "instruction": "How many frogs are there?",
+        "data": {
+            "mode": "select_number",
+            "questions": [
+                {
+                    "image": "./src/images/unit1/lesson13/frog8.png",
+                    "correctCount": 8
+                }
+            ]
+        },
+        "ui": {
+            "showFeedback": true,
+            "autoNext": true,
+            "sound": true
+        }
+    }
+]

@@ -1,0 +1,375 @@
+{
+  "lessonId": "u3_l3",
+  "unitId": "unit3",
+  "title": "Addition with Zero",
+  "description": "Learn that adding zero doesn't change the number",
+  "questions": [
+    {
+      "id": "u3_l3_q1",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 5 + 0?",
+      "data": {
+        "equation": "5 + 0",
+        "num1": 5,
+        "num2": 0,
+        "correctAnswer": 5,
+        "answerMode": "mcq",
+        "options": [0, 4, 5, 6],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q2",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 0 + 8?",
+      "data": {
+        "equation": "0 + 8",
+        "num1": 0,
+        "num2": 8,
+        "correctAnswer": 8,
+        "answerMode": "mcq",
+        "options": [7, 8, 9, 0],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q3",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "addition_word_problem",
+      "title": "Oranges in Baskets",
+      "instruction": "Write the addition sentence and the answer",
+      "data": {
+        "problemText": "You are putting oranges into baskets. You put 3 oranges in the first basket, and 0 in the second basket. How many oranges did you put in total?",
+        "image": "./src/images/unit3/lesson3/baskets_oranges.png",
+        "num1": 3,
+        "num2": 0,
+        "correctAnswer": 3,
+        "correctEquation": "3 + 0",
+        "answerMode": "full",
+        "hints": {
+          "num1Label": "oranges in 1st basket",
+          "num2Label": "oranges in 2nd basket"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u3_l3_q4",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 5 + 0?",
+      "data": {
+        "equation": "5 + 0",
+        "num1": 5,
+        "num2": 0,
+        "correctAnswer": 5,
+        "answerMode": "mcq",
+        "options": [0, 4, 5, 6],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q5",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 0 + 8?",
+      "data": {
+        "equation": "0 + 8",
+        "num1": 0,
+        "num2": 8,
+        "correctAnswer": 8,
+        "answerMode": "mcq",
+        "options": [8,7, 9, 0],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q6",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 1 + 0?",
+      "data": {
+        "equation": "1 + 0",
+        "num1": 1,
+        "num2": 0,
+        "correctAnswer": 1,
+        "answerMode": "mcq",
+        "options": [0, 1, 2, 3],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q7",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 4 + 0?",
+      "data": {
+        "equation": "4 + 0",
+        "num1": 4,
+        "num2": 0,
+        "correctAnswer": 4,
+        "answerMode": "mcq",
+        "options": [0, 3, 5, 4],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q8",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 0 + 9?",
+      "data": {
+        "equation": "0 + 9",
+        "num1": 0,
+        "num2": 9,
+        "correctAnswer": 9,
+        "answerMode": "mcq",
+        "options": [0, 9, 8, 10],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q9",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 3 + 7?",
+      "data": {
+        "equation": "3 + 7",
+        "num1": 3,
+        "num2": 7,
+        "correctAnswer": 10,
+        "answerMode": "mcq",
+        "options": [8, 9, 10, 11],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q10",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "addition_word_problem",
+      "title": "Balls in Baskets",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "You are putting balls into a basket. You put 0 balls the first time, and 5 balls the second time. How many balls did you put in total?",
+        "image": "./src/images/unit3/lesson3/balls_basket.png",
+        "num1": 0,
+        "num2": 5,
+        "correctAnswer": 5,
+        "correctEquation": "0 + 5",
+        "answerMode": "full",
+        "hints": {
+          "num1Label": "balls first time",
+          "num2Label": "balls second time"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u3_l3_q11",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 2 + 0?",
+      "data": {
+        "equation": "2 + 0",
+        "num1": 2,
+        "num2": 0,
+        "correctAnswer": 2,
+        "answerMode": "mcq",
+        "options": [0, 1, 2, 3],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q12",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 6 + 0?",
+      "data": {
+        "equation": "6 + 0",
+        "num1": 6,
+        "num2": 0,
+        "correctAnswer": 6,
+        "answerMode": "mcq",
+        "options": [6, 5, 0, 7],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q13",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 0 + 1?",
+      "data": {
+        "equation": "0 + 1",
+        "num1": 0,
+        "num2": 1,
+        "correctAnswer": 1,
+        "answerMode": "mcq",
+        "options": [0, 1, 2, 3],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q14",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 0 + 5?",
+      "data": {
+        "equation": "0 + 5",
+        "num1": 0,
+        "num2": 5,
+        "correctAnswer": 5,
+        "answerMode": "mcq",
+        "options": [0, 4, 6, 5],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q15",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 4 + 4?",
+      "data": {
+        "equation": "4 + 4",
+        "num1": 4,
+        "num2": 4,
+        "correctAnswer": 8,
+        "answerMode": "mcq",
+        "options": [6, 7, 8, 9],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l3_q16",
+      "unitId": "unit3",
+      "lessonId": "u3_l3",
+      "type": "addition_word_problem",
+      "title": "Fishing Problem",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "You went fishing. Yesterday, you caught 4 fish. Today, you caught 0 fish. How many fish did you catch in total?",
+        "image": "./src/images/unit3/lesson3/fishing_problem.png",
+        "num1": 4,
+        "num2": 0,
+        "correctAnswer": 4,
+        "correctEquation": "4 + 0",
+        "answerMode": "full",
+        "hints": {
+          "num1Label": "fish yesterday",
+          "num2Label": "fish today"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    }
+  ]
+}

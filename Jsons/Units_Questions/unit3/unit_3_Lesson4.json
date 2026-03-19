@@ -1,0 +1,135 @@
+{
+  "lessonId": "u3_l4",
+  "unitId": "unit3",
+  "title": "Making Addition Stories",
+  "description": "Create and match stories to addition equations",
+  "questions": [
+    {
+      "id": "u3_l4_q1",
+      "unitId": "unit3",
+      "lessonId": "u3_l4",
+      "type": "story_matching",
+      "title": "Making Addition Stories",
+      "instruction": "Let's make a story that matches this addition: 2 + 3 = 5",
+      "data": {
+        "sceneImage": "./src/images/unit3/lesson4/park_scene.png",
+        "equation": "2 + 3 = 5",
+        "num1": 2,
+        "num2": 3,
+        "sum": 5,
+        "stories": [
+          {
+            "id": "story1",
+            "text": "There are 2 black fish and 3 red fish. How many fish are there?",
+            "isCorrect": true
+          },
+          {
+            "id": "story2",
+            "text": "There are 2 orange birds and 3 blue birds. How many birds are there?",
+            "isCorrect": true
+          },
+          {
+            "id": "story3",
+            "text": "There are 3 kids on the bench and 3 kids playing. How many kids?",
+            "isCorrect": false
+          }
+        ],
+        "answerMode": "multiple_correct"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "allowMultiple": true
+      }
+    },
+    {
+      "id": "u3_l4_q2",
+      "unitId": "unit3",
+      "lessonId": "u3_l4",
+      "type": "story_matching",
+      "title": "Making Addition Stories",
+      "instruction": "Let's make a story that matches this addition: 4 + 1 = 5",
+      "data": {
+        "sceneImage": "./src/images/unit3/lesson4/playground_scene.png",
+        "equation": "4 + 1 = 5",
+        "num1": 4,
+        "num2": 1,
+        "sum": 5,
+        "stories": [
+          {
+            "id": "story1",
+            "text": "4 kids are playing. 1 teacher is watching. How many people?",
+            "isCorrect": true
+          },
+          {
+            "id": "story2",
+            "text": "4 birds are flying and 1 bird is on the tree. How many birds?",
+            "isCorrect": true
+          },
+          {
+            "id": "story3",
+            "text": "2 kids and 2 kids are playing soccer. How many kids?",
+            "isCorrect": false
+          },
+          {
+            "id": "story4",
+            "text": "4 rabbits are jumping and 1 rabbit is sleeping. How many rabbits?",
+            "isCorrect": true
+          }
+        ],
+        "answerMode": "multiple_correct"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "allowMultiple": true
+      }
+    },
+    {
+      "id": "u3_l4_q3",
+      "unitId": "unit3",
+      "lessonId": "u3_l4",
+      "type": "story_matching",
+      "title": "Making Addition Stories",
+      "instruction": "Let's make a story that matches this addition: 2 + 1 = 3",
+      "data": {
+        "sceneImage": "./src/images/unit3/lesson4/bicycle_scene.png",
+        "equation": "2 + 1 = 3",
+        "num1": 2,
+        "num2": 1,
+        "sum": 3,
+        "stories": [
+          {
+            "id": "story3",
+            "text": "3 bicycles and 1 ball. How many objects?",
+            "isCorrect": false
+          },
+          {
+            "id": "story1",
+            "text": "2 red bicycles and 1 blue bicycle. How many bicycles?",
+            "isCorrect": true
+          },
+          {
+            "id": "story2",
+            "text": "2 black cats and 1 white cat. How many cats?",
+            "isCorrect": true
+          },
+          {
+            "id": "story4",
+            "text": "2 blue birds and 1 orange bird. How many birds?",
+            "isCorrect": true
+          }
+        ],
+        "answerMode": "multiple_correct"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "allowMultiple": true
+      }
+    }
+  ]
+}

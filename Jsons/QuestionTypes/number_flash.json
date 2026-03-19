@@ -1,0 +1,16 @@
+{
+  "type": "number_flash",
+  "description": "Show numbers with labels and sound for learning",
+  "data": {
+    "numbers": [
+      {
+        "value": "number",
+        "label": "string"
+      }
+    ]
+  },
+  "ui": {
+    "sound": "boolean",
+    "autoNext": "boolean"
+  }
+}

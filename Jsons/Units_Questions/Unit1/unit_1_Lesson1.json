@@ -1,0 +1,62 @@
+[
+  {
+    "id": "u1_l1_q1",
+    "unitId": "unit1",
+    "lessonId": "u1_l1",
+    "type": "tap_count",
+    "title": "Count the Animals",
+    "instruction": "Count the animals and choose the correct number",
+    "data": {
+      "mode": "select_number",
+      "questions": [
+        {
+          "image": "./src/images/unit1/lesson1/Q1_Dogs&cats.png",
+          "correctCount": 2
+        },
+        {
+          "image": "./src/images/unit1/lesson1/Q1_Dogs&cats.png",
+          "correctCount": 5
+        }
+      ]
+    },
+    "ui": {
+      "showFeedback": true,
+      "autoNext": true,
+      "sound": true
+    }
+  },
+  {
+    "id": "u1_l1_q2",
+    "unitId": "unit1",
+    "lessonId": "u1_l1",
+    "type": "tap_count",
+    "title": "Count the Objects",
+    "instruction": "Look at the picture and choose the correct number",
+    "data": {
+      "mode": "select_number",
+      "questions": [
+        {
+          "image": "src/images/unit1/lesson1/How_Many_camels.png",
+          "correctCount": 3
+        },
+        {
+          "image": "src/images/unit1/lesson1/How_Many_Flowers.png",
+          "correctCount": 8
+        },
+        {
+          "image": "src/images/unit1/lesson1/How_Many_Bees.png",
+          "correctCount": 4
+        },
+        {
+          "image": "src/images/unit1/lesson1/How_Many_Byscyles.png",
+          "correctCount": 6
+        }
+      ]
+    },
+    "ui": {
+      "showFeedback": true,
+      "autoNext": true,
+      "sound": true
+    }
+  }
+]

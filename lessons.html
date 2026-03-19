@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalia's MathBook - Lessons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Nunito:wght@400;600;700&family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/lessons.css">
+</head>
+<body>
+    <div class="lessons-container">
+        <!-- Header -->
+        <header class="lessons-header">
+            <button class="back-btn" onclick="navigateToUnits()">← Back</button>
+            <div class="unit-info">
+                <h1 id="unitTitle">Unit Title</h1>
+                <div class="unit-progress">
+                    <div class="progress-bar">
+                        <div id="unitProgressFill" class="progress-fill"></div>
+                    </div>
+                    <span id="progressPercent">0%</span>
+                </div>
+            </div>
+            <div class="header-spacer"></div>
+        </header>
+
+        <!-- Lessons Grid -->
+        <div class="lessons-content">
+            <div id="lessonsGrid" class="lessons-grid">
+                <!-- Lessons will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/navigation.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/lessons.js"></script>
+</body>
+</html>

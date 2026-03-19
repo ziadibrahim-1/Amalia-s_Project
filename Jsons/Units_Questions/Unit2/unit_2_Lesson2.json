@@ -1,0 +1,271 @@
+{
+  "lessonId": "u2_l2",
+  "unitId": "unit2",
+  "title": "Where Is It?",
+  "description": "Learn to identify positions in grids using ordinal numbers from top, bottom, left, and right",
+  "questions": [
+    {
+      "id": "u2_l2_q1",
+      "unitId": "unit2",
+      "lessonId": "u2_l2",
+      "type": "grid_position_select",
+      "title": "Where Is It?",
+      "instruction": "🍎 is the ___ from the left",
+      "data": {
+        "gridImage": "./src/images/unit2/lesson2/horizontal3.png",
+        "orientation": "horizontal",
+        "referencePoint": "left",
+        "targetItem": "apple",
+        "targetEmoji": "🍎",
+        "totalItems": 5,
+        "correctPosition": 3,
+        "answerMode": "mcq",
+        "options": ["1st", "2nd", "3rd", "4th"]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u2_l2_q2",
+      "unitId": "unit2",
+      "lessonId": "u2_l2",
+      "type": "grid_position_select",
+      "title": "Where Is It?",
+      "instruction": "🍅 is the ___ from the bottom",
+      "data": {
+        "gridImage": "./src/images/unit2/lesson2/vertical_grid_2.png",
+        "orientation": "vertical",
+        "referencePoint": "bottom",
+        "targetItem": "tomato",
+        "targetEmoji": "🍅",
+        "totalItems": 4,
+        "correctPosition": 3,
+        "answerMode": "mcq",
+        "options": ["1st", "2nd", "3rd", "4th"]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u2_l2_q3",
+      "unitId": "unit2",
+      "lessonId": "u2_l2",
+      "type": "grid_position_select",
+      "title": "Where Is It?",
+      "instruction": "🐘 is the ___ from the top",
+      "data": {
+        "gridImage": "./src/images/unit2/lesson2/vertical_grid_3.png",
+        "orientation": "horizontal",
+        "referencePoint": "top",
+        "targetItem": "elephant",
+        "targetEmoji": "🐘",
+        "totalItems": 4,
+        "correctPosition": 2,
+        "answerMode": "mcq",
+        "options": ["1st", "2nd", "3rd", "4th"]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u2_l2_q4",
+      "unitId": "unit2",
+      "lessonId": "u2_l2",
+      "type": "grid_position_select",
+      "title": "Where Is It?",
+      "instruction": "🐸 is the ___ from the bottom",
+      "data": {
+        "gridImage": "./src/images/unit2/lesson2/vertical_grid_3.png",
+        "orientation": "vertical",
+        "referencePoint": "bottom",
+        "targetItem": "frog",
+        "targetEmoji": "🐸",
+        "totalItems": 4,
+        "correctPosition": 2,
+        "answerMode": "mcq",
+        "options": ["1st", "2nd", "3rd", "4th"]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u2_l2_q5",
+      "unitId": "unit2",
+      "lessonId": "u2_l2",
+      "type": "grid_position_select",
+      "title": "Where Is It?",
+      "instruction": "🐘 is the ___ from the top",
+      "data": {
+        "gridImage": "./src/images/unit2/lesson2/vertical_grid_3.png",
+        "orientation": "vertical",
+        "referencePoint": "top",
+        "targetItem": "elephant",
+        "targetEmoji": "🐘",
+        "totalItems": 4,
+        "correctPosition": 2,
+        "answerMode": "mcq",
+        "options": ["1st", "2nd", "3rd", "4th"]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u2_l2_q6",
+      "unitId": "unit2",
+      "lessonId": "u2_l2",
+      "type": "grid_position_select",
+      "title": "Where Is It?",
+      "instruction": "🍌 is the ___ from the top",
+      "data": {
+        "gridImage": "./src/images/unit2/lesson2/vertical_grid_1.png",
+        "orientation": "vertical",
+        "referencePoint": "top",
+        "targetItem": "banana",
+        "targetEmoji": "🍌",
+        "totalItems": 4,
+        "correctPosition": 2,
+        "answerMode": "mcq",
+        "options": ["1st", "2nd", "3rd", "4th"]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u2_l2_q7",
+      "unitId": "unit2",
+      "lessonId": "u2_l2",
+      "type": "grid_position_select",
+      "title": "Where Is It?",
+      "instruction": "🍊 is the ___ from the bottom",
+      "data": {
+        "gridImage": "./src/images/unit2/lesson2/vertical_grid_1.png",
+        "orientation": "vertical",
+        "referencePoint": "bottom",
+        "targetItem": "orange",
+        "targetEmoji": "🍊",
+        "totalItems": 4,
+        "correctPosition": 1,
+        "answerMode": "mcq",
+        "options": ["1st", "2nd", "3rd", "4th"]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u2_l2_q8",
+      "unitId": "unit2",
+      "lessonId": "u2_l2",
+      "type": "grid_position_select",
+      "title": "Where Is It?",
+      "instruction": "🍎 is the ___ from the left",
+      "data": {
+        "gridImage": "./src/images/unit2/lesson2/horizontal3.png",
+        "orientation": "horizontal",
+        "referencePoint": "left",
+        "targetItem": "apple",
+        "targetEmoji": "🍎",
+        "totalItems": 5,
+        "correctPosition": 3,
+        "answerMode": "mcq",
+        "options": ["1st", "2nd", "3rd", "4th"]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u2_l2_q9",
+      "unitId": "unit2",
+      "lessonId": "u2_l2",
+      "type": "grid_position_select",
+      "title": "Where Is It?",
+      "instruction": "🍇 is the ___ from the right",
+      "data": {
+        "gridImage": "./src/images/unit2/lesson2/horizontal3.png",
+        "orientation": "horizontal",
+        "referencePoint": "right",
+        "targetItem": "grapes",
+        "targetEmoji": "🍇",
+        "totalItems": 5,
+        "correctPosition": 4,
+        "answerMode": "mcq",
+        "options": ["1st", "2nd", "3rd", "4th"]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u2_l2_q10",
+      "unitId": "unit2",
+      "lessonId": "u2_l2",
+      "type": "grid_position_select",
+      "title": "Where Is It?",
+      "instruction": "🐸 is the ___ from the right",
+      "data": {
+        "gridImage": "./src/images/unit2/lesson2/horizontal2.png",
+        "orientation": "horizontal",
+        "referencePoint": "right",
+        "targetItem": "frog",
+        "targetEmoji": "🐸",
+        "totalItems": 4,
+        "correctPosition": 3,
+        "answerMode": "mcq",
+        "options": ["1st", "2nd", "3rd", "4th"]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },{
+      "id": "u2_l2_q11",
+      "unitId": "unit2",
+      "lessonId": "u2_l2",
+      "type": "grid_position_select",
+      "title": "Where Is It?",
+      "instruction": "🍅 is the ___ from the right",
+      "data": {
+        "gridImage": "./src/images/unit2/lesson2/horizontal1.png",
+        "orientation": "horizontal",
+        "referencePoint": "right",
+        "targetItem": "tomato",
+        "targetEmoji": "🍅",
+        "totalItems": 4,
+        "correctPosition": 3,
+        "answerMode": "mcq",
+        "options": ["1st", "2nd", "3rd", "4th"]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "lessonId": "u8_l1",
+  "unitId": "unit8",
+  "title": "Telling Time on a Clock",
+  "description": "Learn to read analog clocks",
+  "questions": [
+    {
+      "id": "u8_l1_q1",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Read the Clock",
+      "instruction": "Look at the clock. What time is it?",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/clock_1oclock.png",
+        "correctTime": "1 o'clock",
+        "timeType": "oclock",
+        "hour": 1,
+        "minute": 0,
+        "questionMode": "read",
+        "options": ["12 o'clock", "1 o'clock", "2 o'clock", "3 o'clock"],
+        "showTips": true,
+        "tips": [
+          "Look at the short hand (hour hand)",
+          "The long hand is on 12",
+          "It is 1 o'clock"
+        ]
+      }
+    },
+    {
+      "id": "u8_l1_q2",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Read the Clock",
+      "instruction": "Look at the clock. What time is it?",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/clock_halfpast5.png",
+        "correctTime": "half past 5",
+        "timeType": "halfpast",
+        "hour": 5,
+        "minute": 30,
+        "questionMode": "read",
+        "options": ["5 o'clock", "half past 5", "half past 6", "6 o'clock"],
+        "showTips": true,
+        "tips": [
+          "The short hand is between 5 and 6",
+          "The long hand is on 6",
+          "Half past the smaller number means half past 5"
+        ]
+      }
+    },
+    {
+      "id": "u8_l1_q3",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Draw the Long Hand",
+      "instruction": "Draw the long hand. The time is 3 o'clock.",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/clock_base.png",
+        "correctTime": "3 o'clock",
+        "timeType": "oclock",
+        "hour": 3,
+        "minute": 0,
+        "questionMode": "draw",
+        "drawType": "minute",
+        "correctPosition": 12,
+        "showShortHand": true,
+        "shortHandPosition": 3,
+        "showTips": true,
+        "tips": [
+          "For o'clock, the long hand points to 12",
+          "Click 12"
+        ]
+      }
+    },
+    {
+      "id": "u8_l1_q4",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Read the Clock",
+      "instruction": "Look at the clock. What time is it?",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/clock_9oclock.png",
+        "correctTime": "9 o'clock",
+        "timeType": "oclock",
+        "hour": 9,
+        "minute": 0,
+        "questionMode": "read",
+        "options": ["9 o'clock", "10 o'clock", "11 o'clock", "12 o'clock"],
+        "showTips": true,
+        "tips": [
+          "Find the short hand",
+          "The long hand is on 12",
+          "It is 9 o'clock"
+        ]
+      }
+    },
+    {
+      "id": "u8_l1_q5",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Draw the Long Hand",
+      "instruction": "Draw the long hand. The time is half past 1.",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/halfpast1.png",
+        "correctTime": "half past 1",
+        "timeType": "halfpast",
+        "hour": 1,
+        "minute": 30,
+        "questionMode": "draw",
+        "drawType": "minute",
+        "correctPosition": 6,
+        "showShortHand": true,
+        "shortHandPosition": 1.5,
+        "showTips": true,
+        "tips": [
+          "For half past, the long hand points to 6",
+          "Click 6"
+        ]
+      }
+    },
+    {
+      "id": "u8_l1_q6",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Read the Clock",
+      "instruction": "Read the clock. What time is it?",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/clock_2oclock.png",
+        "correctTime": "2 o'clock",
+        "timeType": "oclock",
+        "hour": 2,
+        "minute": 0,
+        "questionMode": "read",
+        "options": ["2 o'clock", "1 o'clock", "3 o'clock", "12 o'clock"],
+        "showTips": false
+      }
+    },
+    {
+      "id": "u8_l1_q7",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Read the Clock",
+      "instruction": "Read the clock. What time is it?",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/clock_Quartpast6.png",
+        "correctTime": "quarter past 6",
+        "timeType": "quarterpast",
+        "hour": 6,
+        "minute": 15,
+        "questionMode": "read",
+        "options": ["1 o'clock", "half past 6", "3 o'clock", "quarter past 6"],
+        "showTips": true,
+        "tips": [
+          "Quarter past means 15 minutes after",
+          "The long hand is on 3",
+          "It is quarter past 6"
+        ]
+      }
+    },
+    {
+      "id": "u8_l1_q8",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Draw the Long Hand",
+      "instruction": "Draw the long hand. The time is half past 6.",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/halfpast6.png",
+        "correctTime": "half past 6",
+        "timeType": "halfpast",
+        "hour": 6,
+        "minute": 30,
+        "questionMode": "draw",
+        "drawType": "minute",
+        "correctPosition": 6,
+        "showShortHand": true,
+        "shortHandPosition": 6.5,
+        "showTips": false
+      }
+    },
+    {
+      "id": "u8_l1_q9",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Read the Clock",
+      "instruction": "Read the clock. What time is it?",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/halfpast1.png",
+        "correctTime": "half past 1",
+        "timeType": "halfpast",
+        "hour": 1,
+        "minute": 30,
+        "questionMode": "read",
+        "options": ["1 o'clock", "half past 1", "half past 2", "2 o'clock"],
+        "showTips": true,
+        "tips": [
+          "The short hand is between 1 and 2",
+          "The long hand is on 6",
+          "It is half past 1"
+        ]
+      }
+    },
+    {
+      "id": "u8_l1_q10",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Draw the Long Hand",
+      "instruction": "Draw the long hand. The time is 5 o'clock.",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/5clock.png",
+        "correctTime": "5 o'clock",
+        "timeType": "oclock",
+        "hour": 5,
+        "minute": 0,
+        "questionMode": "draw",
+        "drawType": "minute",
+        "correctPosition": 12,
+        "showShortHand": true,
+        "shortHandPosition": 5,
+        "showTips": false
+      }
+    },
+    {
+      "id": "u8_l1_q11",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Read the Clock",
+      "instruction": "Read the clock. What time is it?",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/clock_4oclock.png",
+        "correctTime": "4 o'clock",
+        "timeType": "oclock",
+        "hour": 4,
+        "minute": 0,
+        "questionMode": "read",
+        "options": ["3 o'clock", "4 o'clock", "5 o'clock", "12 o'clock"],
+        "showTips": false
+      }
+    },
+    {
+      "id": "u8_l1_q12",
+      "unitId": "unit8",
+      "lessonId": "u8_l1",
+      "type": "clock_reading",
+      "title": "Draw the Long Hand",
+      "instruction": "Draw the long hand. The time is half past 11.",
+      "data": {
+        "clockImage": "./src/images/unit8/lesson1/halfpast11.png",
+        "correctTime": "half past 11",
+        "timeType": "halfpast",
+        "hour": 11,
+        "minute": 30,
+        "questionMode": "draw",
+        "drawType": "minute",
+        "correctPosition": 6,
+        "showShortHand": true,
+        "shortHandPosition": 11.5,
+        "showTips": false
+      }
+    }
+  ]
+}

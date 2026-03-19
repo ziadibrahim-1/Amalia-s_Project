@@ -1,0 +1,445 @@
+/* ===================================
+   RESULTS PAGE STYLES
+   =================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Nunito', 'Comic Neue', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.results-container {
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    z-index: 100;
+    padding-bottom: 20px;
+}
+
+/* Celebration Video */
+.celebration-video {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    z-index: 2;
+    opacity: 0.8;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .celebration-video {
+        width: 180px;
+        height: 180px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .celebration-video {
+        width: 120px;
+        height: 120px;
+        bottom: 5px;
+        right: 5px;
+    }
+}
+
+/* Celebration Effects */
+.celebration {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.balloons {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.balloon {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    border-radius: 50% 50% 50% 0;
+    bottom: -120px;
+    opacity: 0.85;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.balloon-1 {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ff5252 100%);
+    left: 5%;
+    width: 50px;
+    height: 70px;
+}
+
+.balloon-2 {
+    background: linear-gradient(135deg, #ffd93d 0%, #ffca3d 100%);
+    left: 25%;
+    width: 60px;
+    height: 80px;
+}
+
+.balloon-3 {
+    background: linear-gradient(135deg, #6bcf7f 0%, #52d084 100%);
+    left: 50%;
+    width: 55px;
+    height: 75px;
+}
+
+.balloon-4 {
+    background: linear-gradient(135deg, #4ecdc4 0%, #44b7b7 100%);
+    left: 75%;
+    width: 50px;
+    height: 70px;
+}
+
+.balloon-5 {
+    background: linear-gradient(135deg, #f087b2 0%, #e070a0 100%);
+    right: 5%;
+    width: 60px;
+    height: 80px;
+}
+
+@keyframes float {
+    0% {
+        bottom: -120px;
+        opacity: 0;
+        transform: translateX(0) rotateZ(0deg);
+    }
+    5% {
+        opacity: 0.85;
+    }
+    95% {
+        opacity: 0.85;
+    }
+    100% {
+        bottom: 110vh;
+        opacity: 0;
+        transform: translateX(100px) rotateZ(20deg);
+    }
+}
+
+/* Fireworks */
+.fireworks {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.spark {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #FFD700;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+@keyframes explode {
+    0% {
+        opacity: 1;
+        filter: drop-shadow(0 0 10px currentColor);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(var(--tx, 0), var(--ty, 0)) scale(0);
+        filter: drop-shadow(0 0 0px currentColor);
+    }
+}
+
+.spark {
+    animation: explode 1.5s ease-out forwards;
+}
+
+/* Results Content */
+.results-content {
+    background: white;
+    border-radius: 30px;
+    padding: 50px 30px;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 5;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.results-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Score Display */
+.score-display {
+    margin-bottom: 40px;
+}
+
+.score-box {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.score-number {
+    font-size: 90px;
+    font-weight: 900;
+    color: #667eea;
+    animation: scaleUp 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    line-height: 1;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0) rotateY(180deg);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1) rotateY(0);
+        opacity: 1;
+    }
+}
+
+.score-total {
+    font-size: 32px;
+    font-weight: 700;
+    color: #999;
+}
+
+.score-label {
+    font-size: 18px;
+    color: #666;
+    font-weight: 600;
+}
+
+/* Stars Section */
+.stars-section {
+    margin: 50px 0;
+}
+
+.stars {
+    font-size: 100px;
+    letter-spacing: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    min-height: 130px;
+}
+
+.star {
+    display: inline-block;
+    opacity: 0;
+    transform: scale(0) rotateZ(0deg);
+    animation: starBounce 0.6s ease-out forwards;
+}
+
+.star.bounce-in {
+    animation: starBounce 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+@keyframes starBounce {
+    0% {
+        opacity: 0;
+        transform: scale(0) rotateZ(-180deg);
+    }
+    60% {
+        opacity: 1;
+        transform: scale(1.2) rotateZ(10deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotateZ(0deg);
+    }
+}
+
+.star.filled {
+    color: #FFD700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+.star.empty {
+    color: #ddd;
+}
+
+.performance-message {
+    font-size: 28px;
+    color: #333;
+    font-weight: 700;
+    line-height: 1.6;
+    margin: 25px 0;
+    min-height: 50px;
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;    position: relative;
+    z-index: 60;
+}
+
+@media (max-width: 480px) {
+    .action-buttons {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 30px;
+    }}
+
+.btn {
+    padding: 20px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-retry {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+}
+
+.btn-retry:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.5);
+}
+
+.btn-back {
+    background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+    color: #333;
+    box-shadow: 0 10px 25px rgba(132, 250, 176, 0.3);
+}
+
+.btn-back:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(132, 250, 176, 0.5);
+}
+
+.btn:active {
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .results-content {
+        padding: 40px 20px;
+        min-height: 500px;
+    }
+    
+    .results-title {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+    
+    .score-number {
+        font-size: 70px;
+    }
+    
+    .score-total {
+        font-size: 24px;
+    }
+    
+    .stars {
+        font-size: 70px;
+        letter-spacing: 15px;
+        min-height: 100px;
+    }
+    
+    .performance-message {
+        font-size: 22px;
+        min-height: 45px;
+    }
+    
+    .action-buttons {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .balloon {
+        width: 45px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .results-content {
+        padding: 30px 15px;
+        border-radius: 20px;
+        min-height: auto;
+    }
+    
+    .results-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    
+    .score-number {
+        font-size: 50px;
+    }
+    
+    .score-total {
+        font-size: 20px;
+    }
+    
+    .score-label {
+        font-size: 14px;
+    }
+    
+    .stars {
+        font-size: 50px;
+        letter-spacing: 10px;
+        min-height: 70px;
+    }
+    
+    .star {
+        transform: scale(0.8);
+    }
+    
+    .performance-message {
+        font-size: 16px;
+        min-height: 40px;
+    }
+    
+    .btn {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+}

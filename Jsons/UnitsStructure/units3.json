@@ -1,0 +1,10 @@
+{
+  "id": "unit3",
+  "title": "Addition",
+  "lessons": [
+    { "id": "u3_l1", "title": "Addition (Part 1)" },
+    { "id": "u3_l2", "title": "Addition (Part 2)" },
+    { "id": "u3_l3", "title": "Addition with Zero" },
+    { "id": "u3_l4", "title": "Making Addition Stories" }
+  ]
+}

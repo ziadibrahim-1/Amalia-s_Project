@@ -1,0 +1,156 @@
+{
+  "lessonId": "u7_l1",
+  "unitId": "unit7",
+  "title": "Numbers up to 20",
+  "description": "Learn numbers from 11 to 20 and practice counting",
+  "questions": [
+    {
+      "id": "u7_l1_q1",
+      "unitId": "unit7",
+      "lessonId": "u7_l1",
+      "type": "tap_count",
+      "title": "Count the Objects",
+      "instruction": "How many eggs are there?",
+      "data": {
+        "image": "./src/images/unit7/lesson1/eggs.png",
+        "correctAnswer": 13,
+        "maxNumber": 20,
+        "minNumber": 0
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l1_q2",
+      "unitId": "unit7",
+      "lessonId": "u7_l1",
+      "type": "tap_count",
+      "title": "Count the Objects",
+      "instruction": "How many oranges are there?",
+      "data": {
+        "image": "./src/images/unit7/lesson1/oranges.png",
+        "correctAnswer": 16,
+        "maxNumber": 20,
+        "minNumber": 0
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l1_q3",
+      "unitId": "unit7",
+      "lessonId": "u7_l1",
+      "type": "mcq",
+      "title": "Count the Children",
+      "instruction": "Look at the picture. How many children are standing in line?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson1/children_line_hassan.png",
+        "options": ["11", "12", "13", "14"],
+        "correctAnswer": "13"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l1_q4",
+      "unitId": "unit7",
+      "lessonId": "u7_l1",
+      "type": "mcq",
+      "title": "Position in Line",
+      "instruction": "What position is HASSAN from the front?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson1/children_line_hassan.png",
+        "options": ["5th", "6th", "7th", "11th"],
+        "correctAnswer": "11th"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l1_q5",
+      "unitId": "unit7",
+      "lessonId": "u7_l1",
+      "type": "tap_count",
+      "title": "Count the Objects",
+      "instruction": "How many birds are there?",
+      "data": {
+        "image": "./src/images/unit7/lesson1/fish.png",
+        "correctAnswer": 20,
+        "maxNumber": 20,
+        "minNumber": 0
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l1_q6",
+      "unitId": "unit7",
+      "lessonId": "u7_l1",
+      "type": "tap_count",
+      "title": "Count the Objects",
+      "instruction": "How many balls are there?",
+      "data": {
+        "image": "./src/images/unit7/lesson1/balls.png",
+        "correctAnswer": 15,
+        "maxNumber": 20,
+        "minNumber": 0
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l1_q7",
+      "unitId": "unit7",
+      "lessonId": "u7_l1",
+      "type": "mcq",
+      "title": "Count the Children",
+      "instruction": "Look at the picture. How many children are standing in line?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson1/children_line_sara.png",
+        "options": ["13", "14", "15", "16"],
+        "correctAnswer": "14"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l1_q8",
+      "unitId": "unit7",
+      "lessonId": "u7_l1",
+      "type": "mcq",
+      "title": "Position in Line",
+      "instruction": "What position is SARA from the front?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson1/children_line_sara.png",
+        "options": ["12th", "13th", "14th", "15th"],
+        "correctAnswer": "12th"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "unitNumber": 7,
+  "id": "unit7",
+  "title": "Numbers Greater than 10",
+  "lessons": [
+    {
+      "id": "u7_l1",
+      "title": "Numbers up to 20",
+      "description": "Learn numbers from 11 to 20 and practice counting",
+      "estimatedTime": "8 min",
+      "stars": 0
+    },
+    {
+      "id": "u7_l2",
+      "title": "Ten and Some Number",
+      "description": "Understand teen numbers as 10 plus some number",
+      "estimatedTime": "10 min",
+      "stars": 0
+    },
+    {
+      "id": "u7_l3",
+      "title": "Number Line",
+      "description": "Understand number lines, sequences, and ordering",
+      "estimatedTime": "15 min",
+      "stars": 0
+    },
+    {
+      "id": "u7_l4",
+      "title": "Adding and Subtracting Numbers (Part 1)",
+      "description": "Practice addition and subtraction with numbers 10-19",
+      "estimatedTime": "12 min",
+      "stars": 0
+    },
+    {
+      "id": "u7_l5",
+      "title": "Adding and Subtracting Numbers (Part 2)",
+      "description": "More practice with addition and subtraction 11-19",
+      "estimatedTime": "12 min",
+      "stars": 0
+    },
+    {
+      "id": "u7_l6",
+      "title": "Numbers Greater than 20",
+      "description": "Learn numbers from 21 to 40",
+      "estimatedTime": "10 min",
+      "stars": 0
+    }
+  ]
+}

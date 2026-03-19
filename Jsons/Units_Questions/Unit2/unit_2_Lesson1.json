@@ -1,0 +1,134 @@
+{
+  "lessonId": "u2_l1",
+  "unitId": "unit2",
+  "title": "What's the Position?",
+  "description": "Learn to identify positions using ordinal numbers (1st, 2nd, 3rd) from front and back",
+  "questions": [
+    {
+      "id": "u2_l1_q1",
+      "unitId": "unit2",
+      "lessonId": "u2_l1",
+      "type": "position_select",
+      "title": "Find the Horse",
+      "instruction": "Circle the 2nd horse from the front",
+      "data": {
+        "image": "./src/images/unit2/lesson1/horses_row.png",
+        "totalObjects": 5,
+        "correctPosition": 2,
+        "direction": "front",
+        "objectType": "horse"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "highlightOnHover": true
+      }
+    },
+    {
+      "id": "u2_l1_q2",
+      "unitId": "unit2",
+      "lessonId": "u2_l1",
+      "type": "position_select",
+      "title": "Find the Frog",
+      "instruction": "Circle the 5th frog from the front",
+      "data": {
+        "image": "./src/images/unit2/lesson1/frogs_row.png",
+        "totalObjects": 10,
+        "correctPosition": 5,
+        "direction": "front",
+        "objectType": "frog"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "highlightOnHover": true
+      }
+    },
+    {
+      "id": "u2_l1_q3",
+      "unitId": "unit2",
+      "lessonId": "u2_l1",
+      "type": "position_select",
+      "title": "Count from the Back",
+      "instruction": "Circle the 6th person from the back",
+      "data": {
+        "image": "./src/images/unit2/lesson1/people_walking.png",
+        "totalObjects": 10,
+        "correctPosition": 6,
+        "direction": "back",
+        "objectType": "person"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "highlightOnHover": true
+      }
+    },
+    {
+      "id": "u2_l1_q4",
+      "unitId": "unit2",
+      "lessonId": "u2_l1",
+      "type": "position_select",
+      "title": "Find the Cat",
+      "instruction": "Circle the 4th cat from the front",
+      "data": {
+        "image": "./src/images/unit2/lesson1/cats_row.png",
+        "totalObjects": 5,
+        "correctPosition": 4,
+        "direction": "front",
+        "objectType": "cat"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "highlightOnHover": true
+      }
+    },
+    {
+      "id": "u2_l1_q5",
+      "unitId": "unit2",
+      "lessonId": "u2_l1",
+      "type": "position_select",
+      "title": "Find the Car",
+      "instruction": "Circle the 4th car from the front",
+      "data": {
+        "image": "./src/images/unit2/lesson1/cars_row.png",
+        "totalObjects": 8,
+        "correctPosition": 4,
+        "direction": "front",
+        "objectType": "car"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "highlightOnHover": true
+      }
+    },
+    {
+      "id": "u2_l1_q6",
+      "unitId": "unit2",
+      "lessonId": "u2_l1",
+      "type": "position_select",
+      "title": "Count from the Back",
+      "instruction": "Circle the 5th person from the back",
+      "data": {
+        "image": "./src/images/unit2/lesson1/people_walking2.png",
+        "totalObjects": 10,
+        "correctPosition": 5,
+        "direction": "back",
+        "objectType": "person"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "highlightOnHover": true
+      }
+    }
+  ]
+}

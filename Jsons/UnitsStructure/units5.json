@@ -1,0 +1,28 @@
+{
+  "unitNumber": 5,
+  "id": "unit5",
+  "title": "Comparing Lengths",
+  "lessons": [
+    {
+      "id": "u5_l1",
+      "title": "Which One Is Longer?",
+      "description": "Compare lengths by lining up one end",
+      "estimatedTime": "8 min",
+      "stars": 0
+    },
+    {
+      "id": "u5_l2",
+      "title": "How Can We Measure?",
+      "description": "Learn different ways to measure length",
+      "estimatedTime": "5 min",
+      "stars": 0
+    },
+    {
+      "id": "u5_l3",
+      "title": "Let's Compare Lengths",
+      "description": "Use blocks on a grid to compare lengths",
+      "estimatedTime": "10 min",
+      "stars": 0
+    }
+  ]
+}

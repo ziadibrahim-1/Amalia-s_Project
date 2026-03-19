@@ -1,0 +1,230 @@
+{
+  "lessonId": "u5_l3",
+  "unitId": "unit5",
+  "title": "Let's Compare Lengths",
+  "description": "Compare lengths using 'how many blocks long' method",
+  "questions": [
+    {
+      "id": "u5_l3_q1",
+      "unitId": "unit5",
+      "lessonId": "u5_l3",
+      "type": "grid_length_comparison",
+      "title": "Let's Compare Lengths",
+      "instruction": "Which is longer, the yellow train or the green train?",
+      "data": {
+        "image": "./src/images/unit5/lesson3/yellow_green_trains.png",
+        "item1": {
+          "name": "yellow train",
+          "color": "yellow",
+          "blocks": 4,
+          "id": "item1"
+        },
+        "item2": {
+          "name": "green train",
+          "color": "green",
+          "blocks": 5,
+          "id": "item2"
+        },
+        "comparisonType": "longer",
+        "correctAnswer": "item2",
+        "showBlockCount": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l3_q2",
+      "unitId": "unit5",
+      "lessonId": "u5_l3",
+      "type": "grid_length_comparison",
+      "title": "Let's Compare Lengths",
+      "instruction": "Which is longer, the toothbrush or the toothpaste?",
+      "data": {
+        "image": "./src/images/unit5/lesson3/toothbrush_toothpaste.png",
+        "item1": {
+          "name": "toothbrush",
+          "color": "blue",
+          "blocks": 8,
+          "id": "item1"
+        },
+        "item2": {
+          "name": "toothpaste",
+          "color": "white",
+          "blocks": 6,
+          "id": "item2"
+        },
+        "comparisonType": "longer",
+        "correctAnswer": "item1",
+        "showBlockCount": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l3_q3",
+      "unitId": "unit5",
+      "lessonId": "u5_l3",
+      "type": "grid_length_comparison",
+      "title": "Let's Compare Lengths",
+      "instruction": "Which train has more carriages? Which is longer, the white train or the green train?",
+      "data": {
+        "image": "./src/images/unit5/lesson3/white_green_trains.png",
+        "item1": {
+          "name": "white train",
+          "color": "white",
+          "blocks": 6,
+          "id": "item1"
+        },
+        "item2": {
+          "name": "green train",
+          "color": "green",
+          "blocks": 5,
+          "id": "item2"
+        },
+        "comparisonType": "longer",
+        "correctAnswer": "item1",
+        "showBlockCount": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l3_q4",
+      "unitId": "unit5",
+      "lessonId": "u5_l3",
+      "type": "grid_length_comparison",
+      "title": "Let's Compare Lengths",
+      "instruction": "Which is longer, the green pencil or the red pencil?",
+      "data": {
+        "image": "./src/images/unit5/lesson3/green_red_pencils.png",
+        "item1": {
+          "name": "green pencil",
+          "color": "green",
+          "blocks": 9,
+          "id": "item1"
+        },
+        "item2": {
+          "name": "red pencil",
+          "color": "red",
+          "blocks": 10,
+          "id": "item2"
+        },
+        "comparisonType": "longer",
+        "correctAnswer": "item2",
+        "showBlockCount": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l3_q5",
+      "unitId": "unit5",
+      "lessonId": "u5_l3",
+      "type": "grid_length_comparison",
+      "title": "Let's Compare Lengths",
+      "instruction": "Which is longer, the yellow train or the black train?",
+      "data": {
+        "image": "./src/images/unit5/lesson3/yellow_black_trains.png",
+        "item1": {
+          "name": "yellow train",
+          "color": "yellow",
+          "blocks": 4,
+          "id": "item1"
+        },
+        "item2": {
+          "name": "black train",
+          "color": "black",
+          "blocks": 3,
+          "id": "item2"
+        },
+        "comparisonType": "longer",
+        "correctAnswer": "item1",
+        "showBlockCount": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l3_q6",
+      "unitId": "unit5",
+      "lessonId": "u5_l3",
+      "type": "mcq",
+      "title": "Let's Compare Lengths",
+      "instruction": "Look at the scissors and the ruler. How many blocks long is the scissors?",
+      "data": {
+        "questionImage": "./src/images/unit5/lesson3/scissors_ruler.png",
+        "options": ["6", "7", "8", "9"],
+        "correctAnswer": "7"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l3_q7",
+      "unitId": "unit5",
+      "lessonId": "u5_l3",
+      "type": "mcq",
+      "title": "Let's Compare Lengths",
+      "instruction": "Look at the scissors and the ruler. How many blocks long is the ruler?",
+      "data": {
+        "questionImage": "./src/images/unit5/lesson3/scissors_ruler.png",
+        "options": ["8", "9", "10", "11"],
+        "correctAnswer": "8"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l3_q8",
+      "unitId": "unit5",
+      "lessonId": "u5_l3",
+      "type": "grid_length_comparison",
+      "title": "Let's Compare Lengths",
+      "instruction": "Which is longer, the scissors or the ruler?",
+      "data": {
+        "image": "./src/images/unit5/lesson3/scissors_ruler.png",
+        "item1": {
+          "name": "scissors",
+          "color": "green",
+          "blocks": 7,
+          "id": "item1"
+        },
+        "item2": {
+          "name": "ruler",
+          "color": "yellow",
+          "blocks": 8,
+          "id": "item2"
+        },
+        "comparisonType": "longer",
+        "correctAnswer": "item2",
+        "showBlockCount": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

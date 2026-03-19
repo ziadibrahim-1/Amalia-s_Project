@@ -1,0 +1,28 @@
+{
+  "unitNumber": 9,
+  "id": "unit9",
+  "title": "Operations with 3 Numbers",
+  "lessons": [
+    {
+      "id": "u9_l1",
+      "title": "Adding Three Numbers",
+      "description": "Learn to add three numbers from left to right",
+      "estimatedTime": "12 min",
+      "stars": 0
+    },
+    {
+      "id": "u9_l2",
+      "title": "Subtracting Three Numbers",
+      "description": "Learn to subtract three numbers from left to right",
+      "estimatedTime": "12 min",
+      "stars": 0
+    },
+    {
+      "id": "u9_l3",
+      "title": "Calculating with Three Numbers",
+      "description": "Practice mixed + and - operations from left to right",
+      "estimatedTime": "14 min",
+      "stars": 0
+    }
+  ]
+}

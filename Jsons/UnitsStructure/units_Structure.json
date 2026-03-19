@@ -1,0 +1,67 @@
+{
+  "units": [
+    {
+      "id": "unit1",
+      "title": "Numbers up to 10",
+      "order": 1,
+      "enabled": true,
+      "lessonsCount": 13
+    },
+    {
+      "id": "unit2",
+      "title": "What's the Position?",
+      "order": 2,
+      "enabled": false,
+      "lessonsCount": 2
+    },
+    {
+      "id": "unit3",
+      "title": "Addition",
+      "order": 3,
+      "enabled": false,
+      "lessonsCount": 4
+    },
+    {
+      "id": "unit4",
+      "title": "Subtraction",
+      "order": 4,
+      "enabled": false,
+      "lessonsCount": 5
+    },
+    {
+      "id": "unit5",
+      "title": "Comparing Lengths",
+      "order": 5,
+      "enabled": false,
+      "lessonsCount": 3
+    },
+    {
+      "id": "unit6",
+      "title": "Representing Data",
+      "order": 6,
+      "enabled": false,
+      "lessonsCount": 3
+    },
+    {
+      "id": "unit7",
+      "title": "Numbers Greater than 10",
+      "order": 7,
+      "enabled": false,
+      "lessonsCount": 6
+    },
+    {
+      "id": "unit8",
+      "title": "Reading the Clock",
+      "order": 8,
+      "enabled": false,
+      "lessonsCount": 1
+    },
+    {
+      "id": "unit9",
+      "title": "Operations with 3 Numbers",
+      "order": 9,
+      "enabled": false,
+      "lessonsCount": 3
+    }
+  ]
+}

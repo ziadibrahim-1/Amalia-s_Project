@@ -1,0 +1,72 @@
+[
+ 
+
+  {
+    "id": "u1_l5_q2",
+    "unitId": "unit1",
+    "lessonId": "u1_l5",
+    "type": "drag_match",
+    "title": "Match Pictures to Numbers",
+    "instruction": "Drag each picture to the correct number",
+
+    "data": {
+      "pairs": [
+        { "image": "./src/images/unit1/lesson5/Ants.png", "correct": 7 },
+        { "image": "./src/images/unit1/lesson5/Flowers.png", "correct": 6 },
+        { "image": "./src/images/unit1/lesson5/Caps.png", "correct": 10 }
+      ]
+    },
+
+    "ui": {
+      "showFeedback": true,
+      "autoNext": true,
+      "sound": true
+    }
+  },
+
+  {
+    "id": "u1_l5_q3",
+    "unitId": "unit1",
+    "lessonId": "u1_l5",
+    "type": "drag_match",
+    "title": "Match Pictures to Numbers",
+    "instruction": "Drag each picture to the correct number",
+
+    "data": {
+      "pairs": [
+        { "image": "./src/images/unit1/lesson5/Burgor.png", "correct": 8 },
+        { "image": "./src/images/unit1/lesson5/Cats.png", "correct": 6 },
+        { "image": "./src/images/unit1/lesson5/Frogs.png", "correct": 9 }
+      ]
+    },
+
+    "ui": {
+      "showFeedback": true,
+      "autoNext": true,
+      "sound": true
+    }
+  },
+
+  {
+    "id": "u1_l5_q4",
+    "unitId": "unit1",
+    "lessonId": "u1_l5",
+    "type": "drag_match",
+    "title": "More Matching Practice",
+    "instruction": "Match each picture with the correct number",
+
+    "data": {
+      "pairs": [
+        { "image": "./src/images/unit1/lesson5/Crabs.png", "correct": 10 },
+        { "image": "./src/images/unit1/lesson5/Tomato.png", "correct": 8 },
+        { "image": "./src/images/unit1/lesson5/Ballons.png", "correct": 7 }
+      ]
+    },
+
+    "ui": {
+      "showFeedback": true,
+      "autoNext": true,
+      "sound": true
+    }
+  }
+]

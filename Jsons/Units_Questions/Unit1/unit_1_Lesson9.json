@@ -1,0 +1,103 @@
+[
+  {
+    "id": "u1_l9_q1",
+    "unitId": "unit1",
+    "lessonId": "u1_l9",
+    "type": "mcq",
+    "title": "What makes 8?",
+    "instruction": "Choose the number that makes 8",
+    "data": {
+      "question": "What number makes 8 with 1?",
+      "base": 8,
+      "given": 1,
+      "options": [5, 6, 7],
+      "correct": 7
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true }
+  },
+
+  {
+    "id": "u1_l9_q2",
+    "unitId": "unit1",
+    "lessonId": "u1_l9",
+    "type": "mcq",
+    "title": "What makes 8?",
+    "instruction": "Choose the number that makes 8",
+    "data": {
+      "question": "What number makes 8 with 6?",
+      "base": 8,
+      "given": 6,
+      "options": [1, 2, 3],
+      "correct": 2
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true }
+  },
+
+  {
+    "id": "u1_l9_q3",
+    "unitId": "unit1",
+    "lessonId": "u1_l9",
+    "type": "mcq",
+    "title": "What makes 8?",
+    "instruction": "Choose the number that makes 8",
+    "data": {
+      "question": "What number makes 8 with 4?",
+      "base": 8,
+      "given": 4,
+      "options": [2, 3, 4],
+      "correct": 4
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true }
+  },
+
+  {
+    "id": "u1_l9_q4",
+    "unitId": "unit1",
+    "lessonId": "u1_l9",
+    "type": "mcq",
+    "title": "What makes 8?",
+    "instruction": "Choose the number that makes 8",
+    "data": {
+      "question": "What number makes 8 with 3?",
+      "base": 8,
+      "given": 3,
+      "options": [4, 5, 6],
+      "correct": 5
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true }
+  },
+
+  {
+    "id": "u1_l9_q5",
+    "unitId": "unit1",
+    "lessonId": "u1_l9",
+    "type": "mcq",
+    "title": "What makes 8?",
+    "instruction": "Choose the number that makes 8",
+    "data": {
+      "question": "What number makes 8 with 7?",
+      "base": 8,
+      "given": 7,
+      "options": [1, 2, 3],
+      "correct": 1
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true }
+  },
+
+  {
+    "id": "u1_l9_q6",
+    "unitId": "unit1",
+    "lessonId": "u1_l9",
+    "type": "mcq",
+    "title": "What makes 8?",
+    "instruction": "Choose the number that makes 8",
+    "data": {
+      "question": "What number makes 8 with 2?",
+      "base": 8,
+      "given": 2,
+      "options": [4, 5, 6],
+      "correct": 6
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true }
+  }
+]

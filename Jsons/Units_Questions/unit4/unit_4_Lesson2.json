@@ -1,0 +1,148 @@
+{
+  "lessonId": "u4_l2",
+  "unitId": "unit4",
+  "title": "Subtraction (Part 2)",
+  "description": "Solve subtraction word problems with 'how many left?'",
+  "questions": [
+    {
+      "id": "u4_l2_q1",
+      "unitId": "unit4",
+      "lessonId": "u4_l2",
+      "type": "subtraction_word_problem",
+      "title": "How Many Left?",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "You have 7 tomatoes. You eat 4. How many are left?",
+        "image": "./src/images/unit4/lesson2/tomatoes.png",
+        "num1": 7,
+        "num2": 4,
+        "correctAnswer": 3,
+        "correctEquation": "7 - 4",
+        "answerMode": "full",
+        "answerUnit": "tomatoes",
+        "hints": {
+          "num1Label": "tomatoes you have",
+          "num2Label": "tomatoes you eat"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u4_l2_q2",
+      "unitId": "unit4",
+      "lessonId": "u4_l2",
+      "type": "subtraction_word_problem",
+      "title": "How Many Left?",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 8 cars. 5 cars leave. How many are left?",
+        "image": "./src/images/unit4/lesson2/cars.png",
+        "num1": 8,
+        "num2": 5,
+        "correctAnswer": 3,
+        "correctEquation": "8 - 5",
+        "answerMode": "full",
+        "answerUnit": "cars",
+        "hints": {
+          "num1Label": "cars at first",
+          "num2Label": "cars that leave"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u4_l2_q3",
+      "unitId": "unit4",
+      "lessonId": "u4_l2",
+      "type": "subtraction_word_problem",
+      "title": "How Many Left?",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 9 candies. You eat 3. How many are left?",
+        "image": "./src/images/unit4/lesson2/candies.png",
+        "num1": 9,
+        "num2": 3,
+        "correctAnswer": 6,
+        "correctEquation": "9 - 3",
+        "answerMode": "full",
+        "answerUnit": "candies",
+        "hints": {
+          "num1Label": "candies you have",
+          "num2Label": "candies you eat"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u4_l2_q4",
+      "unitId": "unit4",
+      "lessonId": "u4_l2",
+      "type": "subtraction_word_problem",
+      "title": "How Many Left?",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 4 fish. 2 swim away. How many are left?",
+        "image": "./src/images/unit4/lesson2/fish.png",
+        "num1": 4,
+        "num2": 2,
+        "correctAnswer": 2,
+        "correctEquation": "4 - 2",
+        "answerMode": "full",
+        "answerUnit": "fish",
+        "hints": {
+          "num1Label": "fish at first",
+          "num2Label": "fish that swim away"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u4_l2_q5",
+      "unitId": "unit4",
+      "lessonId": "u4_l2",
+      "type": "subtraction_word_problem",
+      "title": "How Many Left?",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 10 flowers. You give away 2. How many are left?",
+        "image": "./src/images/unit4/lesson2/flowers.png",
+        "num1": 10,
+        "num2": 2,
+        "correctAnswer": 8,
+        "correctEquation": "10 - 2",
+        "answerMode": "full",
+        "answerUnit": "flowers",
+        "hints": {
+          "num1Label": "flowers you have",
+          "num2Label": "flowers you give away"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "lessonId": "u9_l2",
+  "unitId": "unit9",
+  "title": "Subtracting Three Numbers",
+  "description": "Learn to subtract three numbers from left to right",
+  "questions": [
+    {
+      "id": "u9_l2_q1",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtracting Three Numbers",
+      "instruction": "There were 9 cookies. You ate 3 cookies yesterday. You ate 4 cookies today. How many cookies are left? Write the mathematical sentence and the answer.",
+      "data": {
+        "num1": 9,
+        "num2": 3,
+        "num3": 4,
+        "equation": "9 - 3 - 4",
+        "step1Result": 6,
+        "finalAnswer": 2,
+        "answerMode": "full",
+        "showSteps": true,
+        "visualStory": true,
+        "storyImages": [
+          "./src/images/unit9/lesson2/cookies_step1.png",
+          "./src/images/unit9/lesson2/cookies_step2.png",
+          "./src/images/unit9/lesson2/cookies_step3.png"
+        ],
+        "storyText": [
+          "There were 9 cookies.",
+          "You ate 3.",
+          "You ate 4 more."
+        ],
+        "answerUnit": "cookies",
+        "showHints": true,
+        "hints": [
+          "👉 Subtract from the left: 9 - 3 first",
+          "👉 Then subtract 4 from the answer"
+        ]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u9_l2_q2",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 6,
+        "num2": 2,
+        "num3": 2,
+        "equation": "6 - 2 - 2",
+        "step1Result": 4,
+        "finalAnswer": 2,
+        "answerMode": "mcq",
+        "options": [1, 2, 3, 4],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l2_q3",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 9,
+        "num2": 1,
+        "num3": 5,
+        "equation": "9 - 1 - 5",
+        "step1Result": 8,
+        "finalAnswer": 3,
+        "answerMode": "mcq",
+        "options": [2, 5, 4, 3],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l2_q4",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 7,
+        "num2": 2,
+        "num3": 1,
+        "equation": "7 - 2 - 1",
+        "step1Result": 5,
+        "finalAnswer": 4,
+        "answerMode": "mcq",
+        "options": [4, 3, 5, 6],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l2_q5",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 14,
+        "num2": 4,
+        "num3": 5,
+        "equation": "14 - 4 - 5",
+        "step1Result": 10,
+        "finalAnswer": 5,
+        "answerMode": "mcq",
+        "options": [4, 6, 5, 7],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l2_q6",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 11,
+        "num2": 1,
+        "num3": 6,
+        "equation": "11 - 1 - 6",
+        "step1Result": 10,
+        "finalAnswer": 4,
+        "answerMode": "mcq",
+        "options": [3, 6, 5, 4],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l2_q7",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 13,
+        "num2": 3,
+        "num3": 4,
+        "equation": "13 - 3 - 4",
+        "step1Result": 10,
+        "finalAnswer": 6,
+        "answerMode": "mcq",
+        "options": [5, 6, 7, 8],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l2_q8",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Word Problem",
+      "instruction": "There were 10 people on the bus. 5 people got off. Then 3 more people got off. How many people are on the bus now? Write the mathematical sentence and the answer.",
+      "data": {
+        "num1": 10,
+        "num2": 5,
+        "num3": 3,
+        "equation": "10 - 5 - 3",
+        "step1Result": 5,
+        "finalAnswer": 2,
+        "answerMode": "full",
+        "showSteps": true,
+        "visualStory": true,
+        "storyImages": [
+          "./src/images/unit9/lesson2/bus_step1.png",
+          "./src/images/unit9/lesson2/bus_step2.png",
+          "./src/images/unit9/lesson2/bus_step3.png"
+        ],
+        "answerUnit": "people"
+      }
+    },
+    {
+      "id": "u9_l2_q9",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 9,
+        "num2": 6,
+        "num3": 1,
+        "equation": "9 - 6 - 1",
+        "step1Result": 3,
+        "finalAnswer": 2,
+        "answerMode": "mcq",
+        "options": [1, 2, 3, 4],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l2_q10",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 8,
+        "num2": 2,
+        "num3": 3,
+        "equation": "8 - 2 - 3",
+        "step1Result": 6,
+        "finalAnswer": 3,
+        "answerMode": "mcq",
+        "options": [2, 5, 4, 3],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l2_q11",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 7,
+        "num2": 1,
+        "num3": 5,
+        "equation": "7 - 1 - 5",
+        "step1Result": 6,
+        "finalAnswer": 1,
+        "answerMode": "mcq",
+        "options": [0, 1, 2, 3],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l2_q12",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 18,
+        "num2": 8,
+        "num3": 7,
+        "equation": "18 - 8 - 7",
+        "step1Result": 10,
+        "finalAnswer": 3,
+        "answerMode": "mcq",
+        "options": [3, 2, 4, 5],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l2_q13",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 16,
+        "num2": 6,
+        "num3": 9,
+        "equation": "16 - 6 - 9",
+        "step1Result": 10,
+        "finalAnswer": 1,
+        "answerMode": "mcq",
+        "options": [0, 1, 2, 3],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l2_q14",
+      "unitId": "unit9",
+      "lessonId": "u9_l2",
+      "type": "three_number_subtraction",
+      "title": "Subtract the Numbers",
+      "instruction": "Subtract the numbers",
+      "data": {
+        "num1": 17,
+        "num2": 7,
+        "num3": 6,
+        "equation": "17 - 7 - 6",
+        "step1Result": 10,
+        "finalAnswer": 4,
+        "answerMode": "mcq",
+        "options": [3, 6, 5, 4],
+        "showSteps": false
+      }
+    }
+  ]
+}

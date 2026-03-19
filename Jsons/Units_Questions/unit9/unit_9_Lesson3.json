@@ -1,0 +1,420 @@
+{
+  "lessonId": "u9_l3",
+  "unitId": "unit9",
+  "title": "Calculating with Three Numbers",
+  "description": "Learn to calculate with both addition and subtraction from left to right",
+  "questions": [
+    {
+      "id": "u9_l3_q1",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Calculating with Three Numbers",
+      "instruction": "There were 6 cats. 2 cats went home. Then 3 new cats came. How many cats are there now? Write the mathematical sentence and the answer.",
+      "data": {
+        "num1": 6,
+        "operator1": "-",
+        "num2": 2,
+        "operator2": "+",
+        "num3": 3,
+        "equation": "6 - 2 + 3",
+        "step1Result": 4,
+        "finalAnswer": 7,
+        "answerMode": "full",
+        "showSteps": true,
+        "visualStory": true,
+        "storyImages": [
+          "./src/images/unit9/lesson3/cats_step1.png",
+          "./src/images/unit9/lesson3/cats_step2.png",
+          "./src/images/unit9/lesson3/cats_step3.png"
+        ],
+        "storyText": [
+          "There were 6 cats.",
+          "2 cats went home.",
+          "3 new cats came."
+        ],
+        "answerUnit": "cats",
+        "showHints": true,
+        "hints": [
+          "⚠️ Calculate from LEFT to RIGHT!",
+          "👉 First: 6 - 2",
+          "👉 Then: add 3 to your answer"
+        ]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u9_l3_q2",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 10,
+        "operator1": "-",
+        "num2": 3,
+        "operator2": "+",
+        "num3": 1,
+        "equation": "10 - 3 + 1",
+        "step1Result": 7,
+        "finalAnswer": 8,
+        "answerMode": "mcq",
+        "options": [6, 7, 8, 9],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q3",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 3,
+        "operator1": "+",
+        "num2": 5,
+        "operator2": "-",
+        "num3": 7,
+        "equation": "3 + 5 - 7",
+        "step1Result": 8,
+        "finalAnswer": 1,
+        "answerMode": "mcq",
+        "options": [0, 1, 2, 3],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q4",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 1,
+        "operator1": "+",
+        "num2": 1,
+        "operator2": "+",
+        "num3": 1,
+        "equation": "1 + 1 + 1",
+        "step1Result": 2,
+        "finalAnswer": 3,
+        "answerMode": "mcq",
+        "options": [3, 2, 4, 5],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q5",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Word Problem",
+      "instruction": "There were 7 cookies. You got 2 more. Then you ate 3. How many cookies are left?",
+      "data": {
+        "num1": 7,
+        "operator1": "+",
+        "num2": 2,
+        "operator2": "-",
+        "num3": 3,
+        "equation": "7 + 2 - 3",
+        "step1Result": 9,
+        "finalAnswer": 6,
+        "answerMode": "full",
+        "showSteps": true,
+        "visualStory": true,
+        "storyImages": [
+          "./src/images/unit9/lesson3/cookies_step1.png",
+          "./src/images/unit9/lesson3/cookies_step2.png",
+          "./src/images/unit9/lesson3/cookies_step3.png"
+        ],
+        "answerUnit": "cookies"
+      }
+    },
+    {
+      "id": "u9_l3_q6",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 9,
+        "operator1": "-",
+        "num2": 1,
+        "operator2": "+",
+        "num3": 2,
+        "equation": "9 - 1 + 2",
+        "step1Result": 8,
+        "finalAnswer": 10,
+        "answerMode": "mcq",
+        "options": [8, 9, 11, 10],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q7",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 10,
+        "operator1": "-",
+        "num2": 7,
+        "operator2": "+",
+        "num3": 2,
+        "equation": "10 - 7 + 2",
+        "step1Result": 3,
+        "finalAnswer": 5,
+        "answerMode": "mcq",
+        "options": [4, 5, 6, 7],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q8",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 1,
+        "operator1": "+",
+        "num2": 8,
+        "operator2": "-",
+        "num3": 4,
+        "equation": "1 + 8 - 4",
+        "step1Result": 9,
+        "finalAnswer": 5,
+        "answerMode": "mcq",
+        "options": [4, 5, 6, 7],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q9",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 5,
+        "operator1": "+",
+        "num2": 5,
+        "operator2": "-",
+        "num3": 3,
+        "equation": "5 + 5 - 3",
+        "step1Result": 10,
+        "finalAnswer": 7,
+        "answerMode": "mcq",
+        "options": [6, 8, 7, 9],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q10",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 6,
+        "operator1": "+",
+        "num2": 4,
+        "operator2": "-",
+        "num3": 5,
+        "equation": "6 + 4 - 5",
+        "step1Result": 10,
+        "finalAnswer": 5,
+        "answerMode": "mcq",
+        "options": [4, 7, 6, 5],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q11",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 8,
+        "operator1": "-",
+        "num2": 2,
+        "operator2": "-",
+        "num3": 2,
+        "equation": "8 - 2 - 2",
+        "step1Result": 6,
+        "finalAnswer": 4,
+        "answerMode": "mcq",
+        "options": [4, 3, 5, 6],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q12",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Word Problem",
+      "instruction": "There were 7 people on the bus. 4 people got off. Then 3 people got on. How many people are on the bus now?",
+      "data": {
+        "num1": 7,
+        "operator1": "-",
+        "num2": 4,
+        "operator2": "+",
+        "num3": 3,
+        "equation": "7 - 4 + 3",
+        "step1Result": 3,
+        "finalAnswer": 6,
+        "answerMode": "full",
+        "showSteps": true,
+        "visualStory": true,
+        "storyImages": [
+          "./src/images/unit9/lesson3/bus_step1.png",
+          "./src/images/unit9/lesson3/bus_step2.png",
+          "./src/images/unit9/lesson3/bus_step3.png"
+        ],
+        "answerUnit": "people"
+      }
+    },
+    {
+      "id": "u9_l3_q13",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 9,
+        "operator1": "-",
+        "num2": 7,
+        "operator2": "+",
+        "num3": 2,
+        "equation": "9 - 7 + 2",
+        "step1Result": 2,
+        "finalAnswer": 4,
+        "answerMode": "mcq",
+        "options": [4, 3, 5, 6],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q14",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 10,
+        "operator1": "-",
+        "num2": 4,
+        "operator2": "+",
+        "num3": 1,
+        "equation": "10 - 4 + 1",
+        "step1Result": 6,
+        "finalAnswer": 7,
+        "answerMode": "mcq",
+        "options": [6, 7, 8, 9],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q15",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 5,
+        "operator1": "+",
+        "num2": 3,
+        "operator2": "-",
+        "num3": 6,
+        "equation": "5 + 3 - 6",
+        "step1Result": 8,
+        "finalAnswer": 2,
+        "answerMode": "mcq",
+        "options": [1, 4, 3, 2],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q16",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 3,
+        "operator1": "+",
+        "num2": 7,
+        "operator2": "-",
+        "num3": 1,
+        "equation": "3 + 7 - 1",
+        "step1Result": 10,
+        "finalAnswer": 9,
+        "answerMode": "mcq",
+        "options": [8, 10, 9, 11],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q17",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 4,
+        "operator1": "+",
+        "num2": 6,
+        "operator2": "-",
+        "num3": 6,
+        "equation": "4 + 6 - 6",
+        "step1Result": 10,
+        "finalAnswer": 4,
+        "answerMode": "mcq",
+        "options": [3, 6, 5, 4],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l3_q18",
+      "unitId": "unit9",
+      "lessonId": "u9_l3",
+      "type": "mixed_operations",
+      "title": "Solve the Problems",
+      "instruction": "Calculate from left to right",
+      "data": {
+        "num1": 2,
+        "operator1": "+",
+        "num2": 2,
+        "operator2": "+",
+        "num3": 2,
+        "equation": "2 + 2 + 2",
+        "step1Result": 4,
+        "finalAnswer": 6,
+        "answerMode": "mcq",
+        "options": [6, 5, 7, 8],
+        "showSteps": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "lessonId": "u4_l5",
+  "unitId": "unit4",
+  "title": "Making Subtraction Stories",
+  "description": "Create and match stories to subtraction equations",
+  "questions": [
+    {
+      "id": "u4_l5_q1",
+      "unitId": "unit4",
+      "lessonId": "u4_l5",
+      "type": "story_matching",
+      "title": "Making Subtraction Stories",
+      "instruction": "Let's make a story that matches this subtraction: 5 - 3 = 2",
+      "data": {
+        "sceneImage": "./src/images/unit4/lesson5/park_scene.png",
+        "equation": "5 - 3 = 2",
+        "num1": 5,
+        "num2": 3,
+        "sum": 2,
+        "stories": [
+          {
+            "id": "story1",
+            "text": "There are 5 cats. 3 run away. How many cats are left?",
+            "isCorrect": true
+          },
+          {
+            "id": "story2",
+            "text": "There are 5 lolipop. 3 lolipop in basket. How many lolipops are left standing?",
+            "isCorrect": true
+          },
+          {
+            "id": "story3",
+            "text": "There are 3 adults on bench and 2 kids playing. How many kids in total?",
+            "isCorrect": false
+          }
+        ],
+        "answerMode": "multiple_correct"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "allowMultiple": true
+      }
+    },
+    {
+      "id": "u4_l5_q2",
+      "unitId": "unit4",
+      "lessonId": "u4_l5",
+      "type": "story_matching",
+      "title": "Making Subtraction Stories",
+      "instruction": "Let's make a story that matches this subtraction: 4 - 1 = 3",
+      "data": {
+        "sceneImage": "./src/images/unit4/lesson5/zoo_scene.png",
+        "equation": "4 - 1 = 3",
+        "num1": 4,
+        "num2": 1,
+        "sum": 3,
+        "stories": [
+          {
+            "id": "story2",
+            "text": "4 ducks here. 1 duck flies away. How many ducks are swimming?",
+            "isCorrect": true
+          },
+          {
+            "id": "story3",
+            "text": "3 kids are playing and 1 adult is watching. How many people?",
+            "isCorrect": false
+          },
+          {
+            "id": "story4",
+            "text": "There are 4 flowers. 1 flower with the girl away. How many flowers are left with the boy?",
+            "isCorrect": true
+          }
+        ],
+        "answerMode": "multiple_correct"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "allowMultiple": true
+      }
+    }
+  ]
+}

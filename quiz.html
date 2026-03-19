@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalia's MathBook - Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Nunito:wght@400;600;700&family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- Header -->
+        <header class="quiz-header">
+            <button class="back-btn" onclick="exitQuiz()">← Back</button>
+            <div class="quiz-title">
+                <h2 id="lessonTitle">Lesson Title</h2>
+            </div>
+            <div class="header-spacer"></div>
+        </header>
+
+        <!-- Progress Bar -->
+        <div class="progress-section">
+            <div class="progress-bar-vertical">
+                <div id="progressFill" class="progress-fill"></div>
+            </div>
+            <div class="progress-info">
+                <span id="questionCounter">1 / 10</span>
+                <span id="progressPercent">0%</span>
+            </div>
+        </div>
+
+        <!-- Main Quiz Content -->
+        <main class="quiz-main">
+            <!-- Question Display -->
+            <div class="question-container">
+                <h3 id="questionText" class="question-text"></h3>
+                <div id="questionImage" class="question-image"></div>
+                <p id="instruction" class="instruction"></p>
+            </div>
+
+            <!-- Answer Options -->
+            <div id="answersContainer" class="answers-container"></div>
+
+            <!-- Number Pad (for tap_count) -->
+            <div id="numberPad" class="number-pad hidden">
+                <div class="number-grid">
+                    <button class="number-btn" onclick="selectNumber(0)">0</button>
+                    <button class="number-btn" onclick="selectNumber(1)">1</button>
+                    <button class="number-btn" onclick="selectNumber(2)">2</button>
+                    <button class="number-btn" onclick="selectNumber(3)">3</button>
+                    <button class="number-btn" onclick="selectNumber(4)">4</button>
+                    <button class="number-btn" onclick="selectNumber(5)">5</button>
+                    <button class="number-btn" onclick="selectNumber(6)">6</button>
+                    <button class="number-btn" onclick="selectNumber(7)">7</button>
+                    <button class="number-btn" onclick="selectNumber(8)">8</button>
+                    <button class="number-btn" onclick="selectNumber(9)">9</button>
+                    <button class="number-btn" onclick="selectNumber(10)">10</button>
+                </div>
+                <button class="submit-number-btn" onclick="submitNumberAnswer()">Check</button>
+            </div>
+
+            <!-- Feedback Section -->
+            <div id="feedbackSection" class="feedback-section hidden">
+                <div class="feedback-content">
+                    <video id="feedbackVideo" class="feedback-video"></video>
+                    <p id="feedbackMessage" class="feedback-message"></p>
+                    <p id="correctAnswer" class="correct-answer hidden"></p>
+                    <button class="next-btn" onclick="nextQuestion()">Next</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Audio Elements -->
+    <audio id="successSound" preload="auto">
+        <source src="./success.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="tryAgainSound" preload="auto">
+        <source src="./tryagain.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Scripts -->
+    <script src="js/navigation.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>

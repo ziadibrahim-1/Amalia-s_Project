@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalia's MathBook - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Nunito:wght@400;600;700&family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <div class="home-container">
+        <!-- Header -->
+        <header class="home-header">
+            <div class="logo">📚 Amalia's MathBook</div>
+            <p class="tagline">Learn Math with Fun!</p>
+        </header>
+
+        <!-- Main Content -->
+        <div class="home-content">
+            <h1 class="welcome-title">Choose Your Unit</h1>
+            <p class="welcome-text">Select a unit to start learning</p>
+
+            <!-- Units Dictionary Section -->
+            <div class="units-dictionary-section">
+                <h2>📚 All Available Units</h2>
+                <div class="units-dictionary-grid">
+                    <div class="unit-dict-card" onclick="navigateToUnitLessons(1)">
+                        <div class="unit-number">1</div>
+                        <h3>Numbers up to 10</h3>
+                        <p>Learn to count, recognize, and work with numbers from 0 to 10.</p>
+                    </div>
+                    <div class="unit-dict-card" onclick="navigateToUnitLessons(2)">
+                        <div class="unit-number">2</div>
+                        <h3>Position</h3>
+                        <p>Understand spatial relationships - above, below, left, right, and more.</p>
+                    </div>
+                    <div class="unit-dict-card" onclick="navigateToUnitLessons(3)">
+                        <div class="unit-number">3</div>
+                        <h3>Addition</h3>
+                        <p>Master adding numbers together using fun and interactive exercises.</p>
+                    </div>
+                    <div class="unit-dict-card" onclick="navigateToUnitLessons(4)">
+                        <div class="unit-number">4</div>
+                        <h3>Subtraction</h3>
+                        <p>Learn to subtract and understand taking away in real-world contexts.</p>
+                    </div>
+                    <div class="unit-dict-card" onclick="navigateToUnitLessons(5)">
+                        <div class="unit-number">5</div>
+                        <h3>Comparing Lengths</h3>
+                        <p>Compare and measure lengths using different methods and units.</p>
+                    </div>
+                    <div class="unit-dict-card" onclick="navigateToUnitLessons(6)">
+                        <div class="unit-number">6</div>
+                        <h3>Data & Graphs</h3>
+                        <p>Collect, organize, and interpret data using fun visual representations.</p>
+                    </div>
+                    <div class="unit-dict-card" onclick="navigateToUnitLessons(7)">
+                        <div class="unit-number">7</div>
+                        <h3>Numbers Greater than 10</h3>
+                        <p>Extend your number knowledge and work with larger numbers confidently.</p>
+                    </div>
+                    <div class="unit-dict-card" onclick="navigateToUnitLessons(8)">
+                        <div class="unit-number">8</div>
+                        <h3>Reading the Clock</h3>
+                        <p>Tell time and understand hours and minutes with interactive activities.</p>
+                    </div>
+                    <div class="unit-dict-card" onclick="navigateToUnitLessons(9)">
+                        <div class="unit-number">9</div>
+                        <h3>Operations with 3 Numbers</h3>
+                        <p>Combine multiple numbers and learn advanced arithmetic strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="home-footer">
+            <p>Have fun while learning! 🎓</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/navigation.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

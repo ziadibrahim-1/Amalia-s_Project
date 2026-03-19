@@ -1,0 +1,283 @@
+{
+  "lessonId": "u7_l6",
+  "unitId": "unit7",
+  "title": "Numbers Greater than 20",
+  "description": "Learn numbers from 21 to 40",
+  "questions": [
+    {
+      "id": "u7_l6_q1",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "tap_count",
+      "title": "Count the Objects",
+      "instruction": "Count and write the number",
+      "data": {
+        "image": "./src/images/unit7/lesson6/cards_23.png",
+        "correctAnswer": 23,
+        "maxNumber": 40,
+        "minNumber": 20
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q2",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "tap_count",
+      "title": "Count the Objects",
+      "instruction": "Count and write the number",
+      "data": {
+        "image": "./src/images/unit7/lesson6/eggs_35.png",
+        "correctAnswer": 35,
+        "maxNumber": 40,
+        "minNumber": 20
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q3",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "mcq",
+      "title": "Write the Number",
+      "instruction": "Write the number: Twenty-six",
+      "data": {
+        "options": ["24", "25", "26", "27"],
+        "correctAnswer": "26"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q4",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "mcq",
+      "title": "Write the Number",
+      "instruction": "Write the number: Thirty-eight",
+      "data": {
+        "options": ["36", "37", "38", "39"],
+        "correctAnswer": "38"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q5",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "tap_count",
+      "title": "Count the Objects",
+      "instruction": "Count and write the number",
+      "data": {
+        "image": "./src/images/unit7/lesson6/blocks_31.png",
+        "correctAnswer": 31,
+        "maxNumber": 40,
+        "minNumber": 20
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q6",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "tap_count",
+      "title": "Count the Objects",
+      "instruction": "Count and write the number",
+      "data": {
+        "image": "./src/images/unit7/lesson6/oranges_27.png",
+        "correctAnswer": 27,
+        "maxNumber": 40,
+        "minNumber": 20
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q7",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "tap_count",
+      "title": "Count the Objects",
+      "instruction": "Count and write the number",
+      "data": {
+        "image": "./src/images/unit7/lesson6/orange_34.png",
+        "correctAnswer": 34,
+        "maxNumber": 40,
+        "minNumber": 20
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q8",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "tap_count",
+      "title": "Count the Objects",
+      "instruction": "Count and write the number",
+      "data": {
+        "image": "./src/images/unit7/lesson6/eggs_29.png",
+        "correctAnswer": 29,
+        "maxNumber": 40,
+        "minNumber": 20
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    
+
+    {
+      "id": "u7_l6_q9",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "mcq",
+      "title": "Write the Number",
+      "instruction": "Write the number: Twenty-four",
+      "data": {
+        "options": ["22", "23", "24", "25"],
+        "correctAnswer": "24"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q10",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "mcq",
+      "title": "Write the Number",
+      "instruction": "Write the number: Thirty-seven",
+      "data": {
+        "options": ["35", "36", "37", "38"],
+        "correctAnswer": "37"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q11",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "tap_count",
+      "title": "Count the Objects",
+      "instruction": "Count and write the number",
+      "data": {
+        "image": "./src/images/unit7/lesson6/items_33.png",
+        "correctAnswer": 33,
+        "maxNumber": 40,
+        "minNumber": 20
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q12",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "mcq",
+      "title": "Calendar",
+      "instruction": "Look at the calendar. What number comes after 20?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson6/calendar.png",
+        "options": ["19", "20", "21", "22"],
+        "correctAnswer": "21"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q13",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "mcq",
+      "title": "Calendar",
+      "instruction": "Look at the calendar. What number comes after 24?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson6/calendar.png",
+        "options": ["25", "24", "22", "26"],
+        "correctAnswer": "25"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q14",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "mcq",
+      "title": "Calendar",
+      "instruction": "Look at the calendar. What number comes after 27?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson6/calendar.png",
+        "options": ["27", "28", "29", "30"],
+        "correctAnswer": "28"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l6_q15",
+      "unitId": "unit7",
+      "lessonId": "u7_l6",
+      "type": "mcq",
+      "title": "Calendar",
+      "instruction": "Look at the calendar. What number comes after 29?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson6/calendar.png",
+        "options": ["27", "28", "30", "29"],
+        "correctAnswer": "30"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

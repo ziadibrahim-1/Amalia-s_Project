@@ -1,0 +1,19 @@
+{
+  "id": "unit1",
+  "title": "Numbers up to 10",
+  "lessons": [
+    { "id": "u1_l1",  "title": "How Many?" },
+    { "id": "u1_l2",  "title": "Numbers from 1 to 5" },
+    { "id": "u1_l3",  "title": "Let's Count! (from 1 to 5)" },
+    { "id": "u1_l4",  "title": "What Makes 5" },
+    { "id": "u1_l5",  "title": "Numbers from 6 to 10" },
+    { "id": "u1_l6",  "title": "Let's Count! (from 6 to 10)" },
+    { "id": "u1_l7",  "title": "What Makes 6" },
+    { "id": "u1_l8",  "title": "What Makes 7" },
+    { "id": "u1_l9",  "title": "What Makes 8" },
+    { "id": "u1_l10", "title": "What Makes 9" },
+    { "id": "u1_l11", "title": "What Makes 10" },
+    { "id": "u1_l12", "title": "Let's Compare Numbers" },
+    { "id": "u1_l13", "title": "The Number Zero" }
+  ]
+}

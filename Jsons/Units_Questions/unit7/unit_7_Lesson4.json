@@ -1,0 +1,274 @@
+{
+  "lessonId": "u7_l4",
+  "unitId": "unit7",
+  "title": "Adding and Subtracting Numbers (Part 1)",
+  "description": "Practice addition and subtraction with numbers 10-19",
+  "questions": [
+    {
+      "id": "u7_l4_q1",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 10 + 2?",
+      "data": {
+        "equation": "10 + 2",
+        "num1": 10,
+        "num2": 2,
+        "correctAnswer": 12,
+        "answerMode": "mcq",
+        "options": [12, 11, 10, 13],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l4_q2",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 10 + 9?",
+      "data": {
+        "equation": "10 + 9",
+        "num1": 10,
+        "num2": 9,
+        "correctAnswer": 19,
+        "answerMode": "mcq",
+        "options": [17, 18, 19, 20]
+      }
+    },
+    {
+      "id": "u7_l4_q3",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 10 + 4?",
+      "data": {
+        "equation": "10 + 4",
+        "num1": 10,
+        "num2": 4,
+        "correctAnswer": 14,
+        "answerMode": "mcq",
+        "options": [12, 14, 13, 15]
+      }
+    },
+    {
+      "id": "u7_l4_q4",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 15 - 5?",
+      "data": {
+        "equation": "15 - 5",
+        "num1": 15,
+        "num2": 5,
+        "correctAnswer": 10,
+        "answerMode": "mcq",
+        "options": [10, 9, 5, 11]
+      }
+    },
+    {
+      "id": "u7_l4_q5",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 18 - 8?",
+      "data": {
+        "equation": "18 - 8",
+        "num1": 18,
+        "num2": 8,
+        "correctAnswer": 10,
+        "answerMode": "mcq",
+        "options": [8, 9, 10, 11]
+      }
+    },
+    {
+      "id": "u7_l4_q6",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 19 - 9?",
+      "data": {
+        "equation": "19 - 9",
+        "num1": 19,
+        "num2": 9,
+        "correctAnswer": 10,
+        "answerMode": "mcq",
+        "options": [8, 9, 11, 10]
+      }
+    },
+    {
+      "id": "u7_l4_q7",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "subtraction_word_problem",
+      "title": "Word Problem",
+      "instruction": "There are 14 strawberries. You eat 4. How many are left? Write the mathematical sentence and the answer.",
+      "data": {
+        "problemText": "There are 14 strawberries. You eat 4. How many are left?",
+        "image": "./src/images/unit7/lesson4/strawberries.png",
+        "num1": 14,
+        "num2": 4,
+        "correctAnswer": 10,
+        "correctEquation": "14 - 4",
+        "answerMode": "full",
+        "answerUnit": "strawberries"
+      }
+    },
+    {
+      "id": "u7_l4_q8",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 10 + 1?",
+      "data": {
+        "equation": "10 + 1",
+        "num1": 10,
+        "num2": 1,
+        "correctAnswer": 11,
+        "answerMode": "mcq",
+        "options": [9, 11, 10, 12]
+      }
+    },
+    {
+      "id": "u7_l4_q9",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 10 + 3?",
+      "data": {
+        "equation": "10 + 3",
+        "num1": 10,
+        "num2": 3,
+        "correctAnswer": 13,
+        "answerMode": "mcq",
+        "options": [13, 12, 11, 14]
+      }
+    },
+    {
+      "id": "u7_l4_q10",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 10 + 7?",
+      "data": {
+        "equation": "10 + 7",
+        "num1": 10,
+        "num2": 7,
+        "correctAnswer": 17,
+        "answerMode": "mcq",
+        "options": [15, 16, 19, 17]
+      }
+    },
+    {
+      "id": "u7_l4_q11",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 10 + 6?",
+      "data": {
+        "equation": "10 + 6",
+        "num1": 10,
+        "num2": 6,
+        "correctAnswer": 16,
+        "answerMode": "mcq",
+        "options": [16, 15, 14, 17]
+      }
+    },
+    {
+      "id": "u7_l4_q12",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 13 - 3?",
+      "data": {
+        "equation": "13 - 3",
+        "num1": 13,
+        "num2": 3,
+        "correctAnswer": 10,
+        "answerMode": "mcq",
+        "options": [8, 9, 10, 11]
+      }
+    },
+    {
+      "id": "u7_l4_q13",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 14 - 4?",
+      "data": {
+        "equation": "14 - 4",
+        "num1": 14,
+        "num2": 4,
+        "correctAnswer": 10,
+        "answerMode": "mcq",
+        "options": [8, 9, 12, 10]
+      }
+    },
+    {
+      "id": "u7_l4_q14",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 11 - 1?",
+      "data": {
+        "equation": "11 - 1",
+        "num1": 11,
+        "num2": 1,
+        "correctAnswer": 10,
+        "answerMode": "mcq",
+        "options": [8, 10, 15, 11]
+      }
+    },
+    {
+      "id": "u7_l4_q15",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "addition_word_problem",
+      "title": "Word Problem",
+      "instruction": "There are 10 cats. Then 6 more come. How many cats are there now in total? Write the mathematical sentence and the answer.",
+      "data": {
+        "problemText": "There are 10 cats. Then 6 more come. How many cats are there now in total?",
+        "num1": 10,
+        "num2": 6,
+        "correctAnswer": 16,
+        "correctEquation": "10 + 6",
+        "answerMode": "full",
+        "answerUnit": "cats"
+      }
+    },
+    {
+      "id": "u7_l4_q16",
+      "unitId": "unit7",
+      "lessonId": "u7_l4",
+      "type": "subtraction_word_problem",
+      "title": "Word Problem",
+      "instruction": "There are 17 balloons. 7 fly away. How many are left? Write the mathematical sentence and the answer.",
+      "data": {
+        "problemText": "There are 17 balloons. 7 fly away. How many are left?",
+        "num1": 17,
+        "num2": 7,
+        "correctAnswer": 10,
+        "correctEquation": "17 - 7",
+        "answerMode": "full",
+        "answerUnit": "balloons"
+      }
+    }
+  ]
+}

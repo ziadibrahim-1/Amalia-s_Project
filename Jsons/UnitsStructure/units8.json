@@ -1,0 +1,14 @@
+{
+  "unitNumber": 8,
+  "id": "unit8",
+  "title": "Reading the Clock",
+  "lessons": [
+    {
+      "id": "u8_l1",
+      "title": "Telling Time on a Clock",
+      "description": "Learn to read analog clocks with o'clock, half past, and quarter past",
+      "estimatedTime": "12 min",
+      "stars": 0
+    }
+  ]
+}

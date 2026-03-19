@@ -1,0 +1,368 @@
+{
+  "lessonId": "u4_l1",
+  "unitId": "unit4",
+  "title": "Subtraction (Part 1)",
+  "description": "Learn basic subtraction with pictures and simple equations",
+  "questions": [
+    {
+      "id": "u4_l1_q1",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "mcq",
+      "title": "Which Picture Shows 3 - 1?",
+      "instruction": "Look at the pictures and choose which one shows 3 - 1",
+      "data": {
+        "questionImage": "./src/images/unit4/lesson1/birds_question.png",
+        "options": [
+          {
+            "id": "A",
+            "image": "./src/images/unit4/lesson1/birds_A.png",
+            "label": "Picture A"
+          },
+          {
+            "id": "B",
+            "image": "./src/images/unit4/lesson1/birds_B.png",
+            "label": "Picture B"
+          },
+          {
+            "id": "C",
+            "image": "./src/images/unit4/lesson1/birds_C.png",
+            "label": "Picture C"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "displayMode": "image_options"
+      }
+    },
+    {
+      "id": "u4_l1_q2",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 4 - 3?",
+      "data": {
+        "equation": "4 - 3",
+        "num1": 4,
+        "num2": 3,
+        "correctAnswer": 1,
+        "answerMode": "mcq",
+        "options": [0, 1, 2, 3],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q3",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 5 - 2?",
+      "data": {
+        "equation": "5 - 2",
+        "num1": 5,
+        "num2": 2,
+        "correctAnswer": 3,
+        "answerMode": "mcq",
+        "options": [1, 2, 3, 4],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q4",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 10 - 1?",
+      "data": {
+        "equation": "10 - 1",
+        "num1": 10,
+        "num2": 1,
+        "correctAnswer": 9,
+        "answerMode": "mcq",
+        "options": [7, 8, 10, 9],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q5",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "mcq",
+      "title": "Which Picture Shows 5 - 3?",
+      "instruction": "Look at the pictures and choose which one shows 5 - 3",
+      "data": {
+        "questionImage": "./src/images/unit4/lesson1/vans_question.png",
+        "options": [
+          {
+            "id": "A",
+            "image": "./src/images/unit4/lesson1/vans_A.png",
+            "label": "Picture A"
+          },
+          {
+            "id": "B",
+            "image": "./src/images/unit4/lesson1/vans_B.png",
+            "label": "Picture B"
+          },
+          {
+            "id": "C",
+            "image": "./src/images/unit4/lesson1/vans_C.png",
+            "label": "Picture C"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "displayMode": "image_options"
+      }
+    },
+    {
+      "id": "u4_l1_q6",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 2 - 1?",
+      "data": {
+        "equation": "2 - 1",
+        "num1": 2,
+        "num2": 1,
+        "correctAnswer": 1,
+        "answerMode": "mcq",
+        "options": [1, 0, 2, 3],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q7",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 5 - 3?",
+      "data": {
+        "equation": "5 - 3",
+        "num1": 5,
+        "num2": 3,
+        "correctAnswer": 2,
+        "answerMode": "mcq",
+        "options": [1, 3, 2, 4],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q8",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 7 - 2?",
+      "data": {
+        "equation": "7 - 2",
+        "num1": 7,
+        "num2": 2,
+        "correctAnswer": 5,
+        "answerMode": "mcq",
+        "options": [3, 4, 5, 6],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q9",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 8 - 4?",
+      "data": {
+        "equation": "8 - 4",
+        "num1": 8,
+        "num2": 4,
+        "correctAnswer": 4,
+        "answerMode": "mcq",
+        "options": [2, 3, 5, 4],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q10",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 10 - 2?",
+      "data": {
+        "equation": "10 - 2",
+        "num1": 10,
+        "num2": 2,
+        "correctAnswer": 8,
+        "answerMode": "mcq",
+        "options": [8, 7, 6, 9],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q11",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 10 - 8?",
+      "data": {
+        "equation": "10 - 8",
+        "num1": 10,
+        "num2": 8,
+        "correctAnswer": 2,
+        "answerMode": "mcq",
+        "options": [0, 1, 2, 3],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q12",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "mcq",
+      "title": "Which Picture Shows 6 - 4?",
+      "instruction": "Look at the pictures and choose which one shows 6 - 4",
+      "data": {
+        "questionImage": "./src/images/unit4/lesson1/cookies_question.png",
+        "options": [
+          {
+            "id": "A",
+            "image": "./src/images/unit4/lesson1/cookies_A.png",
+            "label": "Picture A"
+          },
+          {
+            "id": "B",
+            "image": "./src/images/unit4/lesson1/cookies_B.png",
+            "label": "Picture B"
+          },
+          {
+            "id": "C",
+            "image": "./src/images/unit4/lesson1/cookies_C.png",
+            "label": "Picture C"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "displayMode": "image_options"
+      }
+    },
+    {
+      "id": "u4_l1_q13",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 4 - 2?",
+      "data": {
+        "equation": "4 - 2",
+        "num1": 4,
+        "num2": 2,
+        "correctAnswer": 2,
+        "answerMode": "mcq",
+        "options": [1, 2, 3, 4],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q14",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 5 - 1?",
+      "data": {
+        "equation": "5 - 1",
+        "num1": 5,
+        "num2": 1,
+        "correctAnswer": 4,
+        "answerMode": "mcq",
+        "options": [2, 3, 4, 5],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q15",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 6 - 5?",
+      "data": {
+        "equation": "6 - 5",
+        "num1": 6,
+        "num2": 5,
+        "correctAnswer": 1,
+        "answerMode": "mcq",
+        "options": [1, 0, 2, 3],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q16",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 9 - 7?",
+      "data": {
+        "equation": "9 - 7",
+        "num1": 9,
+        "num2": 7,
+        "correctAnswer": 2,
+        "answerMode": "mcq",
+        "options": [1, 4, 3, 2],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q17",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 10 - 5?",
+      "data": {
+        "equation": "10 - 5",
+        "num1": 10,
+        "num2": 5,
+        "correctAnswer": 5,
+        "answerMode": "mcq",
+        "options": [3, 4, 5, 6],
+        "showVisual": false
+      }
+    },
+    {
+      "id": "u4_l1_q18",
+      "unitId": "unit4",
+      "lessonId": "u4_l1",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 10 - 9?",
+      "data": {
+        "equation": "10 - 9",
+        "num1": 10,
+        "num2": 9,
+        "correctAnswer": 1,
+        "answerMode": "mcq",
+        "options": [0, 1, 2, 3],
+        "showVisual": false
+      }
+    }
+  ]
+}

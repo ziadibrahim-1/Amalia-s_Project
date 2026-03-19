@@ -1,0 +1,31 @@
+[
+  {
+    "id": "u1_l3_q1",
+    "unitId": "unit1",
+    "lessonId": "u1_l3",
+    "type": "tap_count",
+    "title": "Count and Choose",
+    "instruction": "Count the pictures and choose the correct number",
+
+    "data": {
+      "mode": "select_number",
+      "questions": [
+        { "image": "./src/images/unit1/lesson3/Cats.png", "correctCount": 2 },
+        { "image": "./src/images/unit1/lesson3/Ballons.png", "correctCount": 4 },
+        { "image": "./src/images/unit1/lesson3/Truck.png", "correctCount": 1 },
+        { "image": "./src/images/unit1/lesson3/butterflies.png", "correctCount": 5 },
+        { "image": "./src/images/unit1/lesson3/Balls.png", "correctCount": 3 },
+        { "image": "./src/images/unit1/lesson3/Hourse.png", "correctCount": 1 },
+        { "image": "./src/images/unit1/lesson3/Planes.png", "correctCount": 2 },
+        { "image": "./src/images/unit1/lesson3/Frogs.png", "correctCount": 5 },
+        { "image": "./src/images/unit1/lesson3/teddy.png", "correctCount": 4 }
+      ]
+    },
+
+    "ui": {
+      "showFeedback": true,
+      "autoNext": true,
+      "sound": true
+    }
+  }
+]

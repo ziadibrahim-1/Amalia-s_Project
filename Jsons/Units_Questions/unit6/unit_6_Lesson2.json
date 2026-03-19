@@ -1,0 +1,392 @@
+{
+  "lessonId": "u6_l2",
+  "unitId": "unit6",
+  "title": "What We Learn from Results",
+  "description": "Read pictographs and answer questions about the data",
+  "questions": [
+    {
+      "id": "u6_l2_q1",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the fruit chart. Which fruit has the most?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/fruits_chart.png",
+        "chartData": {
+          "categories": ["Strawberries", "Melons", "Oranges", "Grapes"],
+          "values": [9, 4, 7, 7]
+        },
+        "question": "Which fruit has the most?",
+        "questionType": "most",
+        "options": ["Strawberries", "Melons", "Oranges", "Grapes"],
+        "correctAnswer": "Strawberries"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q2",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the fruit chart. Which fruit has the least?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/fruits_chart.png",
+        "chartData": {
+          "categories": ["Strawberries", "Melons", "Oranges", "Grapes"],
+          "values": [9, 4, 7, 7]
+        },
+        "question": "Which fruit has the least?",
+        "questionType": "least",
+        "options": ["Strawberries", "Melons", "Oranges", "Grapes"],
+        "correctAnswer": "Melons"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q3",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the fruit chart. Which fruits have the same number?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/fruits_chart.png",
+        "chartData": {
+          "categories": ["Strawberries", "Melons", "Oranges", "Grapes"],
+          "values": [9, 4, 7, 7]
+        },
+        "question": "Which fruits have the same number?",
+        "questionType": "same",
+        "options": ["Strawberries and Grapes", "Grapes and Oranges", "All the same"],
+        "correctAnswer": "Grapes and Oranges"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q4",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the fruit chart. How many grapes are there?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/fruits_chart.png",
+        "chartData": {
+          "categories": ["Strawberries", "Melons", "Oranges", "Grapes"],
+          "values": [9, 4, 7, 7]
+        },
+        "question": "How many grapes are there?",
+        "questionType": "count",
+        "options": ["6", "7", "10", "12"],
+        "correctAnswer": "7"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q5",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the shape chart. Which shape has the most?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/shapes_chart.png",
+        "chartData": {
+          "categories": ["Circles", "Triangles", "Squares", "Stars"],
+          "values": [7, 5, 5, 2]
+        },
+        "question": "Which shape has the most?",
+        "questionType": "most",
+        "options": ["Circles", "Triangles", "Squares", "All the same"],
+        "correctAnswer": "Circles"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q6",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the shape chart. Which shape has the least?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/shapes_chart.png",
+        "chartData": {
+          "categories": ["Circles", "Triangles", "Squares", "Stars"],
+          "values": [7, 5, 5, 2]
+        },
+        "question": "Which shape has the least?",
+        "questionType": "least",
+        "options": ["Circles", "Stars", "All the same", "Triangles"],
+        "correctAnswer": "Stars"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q7",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the shape chart. Which shapes have the same number?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/shapes_chart.png",
+        "chartData": {
+          "categories": ["Circles", "Triangles", "Squares", "Stars"],
+          "values": [7, 5, 5, 2]
+        },
+        "question": "Which shapes have the same number?",
+        "questionType": "same",
+        "options": ["Squares and Triangles", "All shapes", "None"],
+        "correctAnswer": "Squares and Triangles"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q8",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the shape chart. How many triangles are there?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/shapes_chart.png",
+        "chartData": {
+          "categories": ["Circles", "Triangles", "Squares", "Stars"],
+          "values": [7, 5, 5, 2]
+        },
+        "question": "How many triangles are there?",
+        "questionType": "count",
+        "options": ["4", "5", "6", "7"],
+        "correctAnswer": "5"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q9",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the vegetable chart. Which vegetable has the most?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/vegetables_chart.png",
+        "chartData": {
+          "categories": ["Tomatoes", "Onions", "Cucumbers", "Eggplants"],
+          "values": [6, 4, 8, 3]
+        },
+        "question": "Which vegetable has the most?",
+        "questionType": "most",
+        "options": ["Tomatoes", "Onions", "Cucumbers", "Eggplants"],
+        "correctAnswer": "Cucumbers"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q10",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the vegetable chart. Which vegetable has the least?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/vegetables_chart.png",
+        "chartData": {
+          "categories": ["Tomatoes", "Onions", "Cucumbers", "Eggplants"],
+          "values": [6, 4, 8, 3]
+        },
+        "question": "Which vegetable has the least?",
+        "questionType": "least",
+        "options": ["Tomatoes", "Onions", "Cucumbers", "Eggplants"],
+        "correctAnswer": "Eggplants"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q11",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the vegetable chart. How many tomatoes are there?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/vegetables_chart.png",
+        "chartData": {
+          "categories": ["Tomatoes", "Onions", "Cucumbers", "Eggplants"],
+          "values": [6, 4, 8, 3]
+        },
+        "question": "How many tomatoes are there?",
+        "questionType": "count",
+        "options": ["6", "7", "8", "9"],
+        "correctAnswer": "6"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q12",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the vegetable chart. How many cucumbers are there?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/vegetables_chart.png",
+        "chartData": {
+          "categories": ["Tomatoes", "Onions", "Cucumbers", "Eggplants"],
+          "values": [6, 4, 8, 3]
+        },
+        "question": "How many cucumbers are there?",
+        "questionType": "count",
+        "options": ["6", "7", "8", "9"],
+        "correctAnswer": "8"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q13",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the animal chart. Which animal has the most?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/animals_chart.png",
+        "chartData": {
+          "categories": ["Lions", "Giraffes", "Birds", "Camels"],
+          "values": [3, 4, 7, 4]
+        },
+        "question": "Which animal has the most?",
+        "questionType": "most",
+        "options": ["Lions", "Giraffes", "Birds", "Camels"],
+        "correctAnswer": "Giraffes"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q14",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the animal chart. Which animal has the least?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/animals_chart.png",
+        "chartData": {
+          "categories": ["Lions", "Giraffes", "Birds", "Camels"],
+          "values": [3, 4, 7, 4]
+        },
+        "question": "Which animal has the least?",
+        "questionType": "least",
+        "options": ["Lions", "Giraffes", "Birds", "Camels"],
+        "correctAnswer": "Lions"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q15",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the animal chart. Which animals have the same number?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/animals_chart.png",
+        "chartData": {
+          "categories": ["Lions", "Giraffes", "Birds", "Camels"],
+          "values": [3, 4, 7, 4]
+        },
+        "question": "Which animals have the same number?",
+        "questionType": "same",
+        "options": ["Lions and Camels", "Giraffes and Camels", "All animals"],
+        "correctAnswer": "Giraffes and Camels"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l2_q16",
+      "unitId": "unit6",
+      "lessonId": "u6_l2",
+      "type": "pictograph_reading",
+      "title": "What We Learn from Results",
+      "instruction": "Look at the animal chart. How many camels are there?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson2/animals_chart.png",
+        "chartData": {
+          "categories": ["Lions", "Giraffes", "Birds", "Camels"],
+          "values": [3, 4, 7, 4]
+        },
+        "question": "How many camels are there?",
+        "questionType": "count",
+        "options": ["3", "4", "5", "6"],
+        "correctAnswer": "4"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

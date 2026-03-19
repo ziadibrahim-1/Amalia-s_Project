@@ -1,0 +1,455 @@
+{
+  "lessonId": "u7_l3",
+  "unitId": "unit7",
+  "title": "Number Line",
+  "description": "Understand number lines, sequences, and ordering",
+  "questions": [
+    {
+      "id": "u7_l3_q1",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "mcq",
+      "title": "Number Line Position",
+      "instruction": "Look at the number line. How far did the rabbit 1 go? Write the number.",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson3/rabbit_numberline.png",
+        "options": ["7", "8", "9", "10"],
+        "correctAnswer": "9"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q2",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "fill_in_sequence",
+      "title": "Number Line",
+      "instruction": "Write the number that goes in the box",
+      "data": {
+        "sequence": [14, 15, null, 17, null],
+        "correctAnswers": [16, 18],
+        "step": 1,
+        "displayMode": "boxes"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q3",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "fill_in_sequence",
+      "title": "Number Line",
+      "instruction": "Write the numbers that go in the boxes",
+      "data": {
+        "sequence": [10, 12, null, 16, null, 20],
+        "correctAnswers": [14, 16, 18],
+        "step": 2,
+        "displayMode": "boxes"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q4",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "compare_numbers",
+      "title": "Circle the Bigger Number",
+      "instruction": "Circle the bigger number",
+      "data": {
+        "number1": 12,
+        "number2": 8,
+        "correctAnswer": 12
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q5",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "compare_numbers",
+      "title": "Circle the Bigger Number",
+      "instruction": "Circle the bigger number",
+      "data": {
+        "number1": 17,
+        "number2": 19,
+        "correctAnswer": 19
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q6",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "fill_in_sequence",
+      "title": "Number Line",
+      "instruction": "Write the numbers that go in the boxes",
+      "data": {
+        "sequence": [12, null, 14, null, null, 17],
+        "correctAnswers": [13, 15, 16],
+        "step": 1,
+        "displayMode": "boxes"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q7",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "fill_in_sequence",
+      "title": "Number Line",
+      "instruction": "Write the numbers that go in the boxes",
+      "data": {
+        "sequence": [10, null, 14, null, 18, 20],
+        "correctAnswers": [12, 16],
+        "step": 2,
+        "displayMode": "boxes"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q8",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "fill_in_sequence",
+      "title": "Number Line",
+      "instruction": "Write the numbers that go in the boxes",
+      "data": {
+        "sequence": [18, null, 16, 15, null, 13],
+        "correctAnswers": [17, 14],
+        "step": -1,
+        "displayMode": "boxes"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q9",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "mcq",
+      "title": "Number Line",
+      "instruction": "Use the number line. What number is 4 more than 11?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson3/numberline_0_20.png",
+        "options": ["13", "14", "15", "16"],
+        "correctAnswer": "15"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q10",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "mcq",
+      "title": "Number Line",
+      "instruction": "Use the number line. What number is 7 less than 18?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson3/numberline_0_20.png",
+        "options": ["9", "11", "10", "12"],
+        "correctAnswer": "11"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q11",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "number_ordering",
+      "title": "Order Numbers",
+      "instruction": "Put the cards in order from least to greatest",
+      "data": {
+        "numbers": [15, 12, 17, 13],
+        "orderType": "ascending",
+        "correctOrder": [12, 13, 15, 17],
+        "displayMode": "cards"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "interactive": false
+      }
+    },
+    {
+      "id": "u7_l3_q12",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "compare_numbers",
+      "title": "Circle the Bigger Number",
+      "instruction": "Circle the bigger number",
+      "data": {
+        "number1": 17,
+        "number2": 16,
+        "correctAnswer": 17
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q13",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "compare_numbers",
+      "title": "Circle the Bigger Number",
+      "instruction": "Circle the bigger number",
+      "data": {
+        "number1": 15,
+        "number2": 20,
+        "correctAnswer": 20
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q14",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "fill_in_sequence",
+      "title": "Number Line",
+      "instruction": "Write the numbers that go in the boxes",
+      "data": {
+        "sequence": [13, null, 15, null, null, 18],
+        "correctAnswers": [14, 16, 17],
+        "step": 1,
+        "displayMode": "boxes"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q15",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "fill_in_sequence",
+      "title": "Number Line",
+      "instruction": "Write the numbers that go in the boxes",
+      "data": {
+        "sequence": [20, null, 18, null, 16, 15],
+        "correctAnswers": [19, 17],
+        "step": -1,
+        "displayMode": "boxes"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q16",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "fill_in_sequence",
+      "title": "Number Line",
+      "instruction": "Write the numbers that go in the boxes",
+      "data": {
+        "sequence": [8, null, 12, null, 16, null, 20],
+        "correctAnswers": [10, 14, 18],
+        "step": 2,
+        "displayMode": "boxes"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q17",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "fill_in_sequence",
+      "title": "Number Line",
+      "instruction": "Write the numbers that go in the boxes",
+      "data": {
+        "sequence": [0, 5, null, 15, 20],
+        "correctAnswers": [10],
+        "step": 5,
+        "displayMode": "boxes"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q18",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "mcq",
+      "title": "Number Line",
+      "instruction": "What number is 2 more than 10?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson3/numberline_0_20.png",
+        "options": ["12", "11", "13", "14"],
+        "correctAnswer": "12"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q19",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "mcq",
+      "title": "Number Line",
+      "instruction": "What number is 8 more than 12?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson3/numberline_0_20.png",
+        "options": ["18", "19", "20", "21"],
+        "correctAnswer": "20"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q20",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "mcq",
+      "title": "Number Line",
+      "instruction": "What number is 3 less than 15?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson3/numberline_0_20.png",
+        "options": ["11", "12", "13", "14"],
+        "correctAnswer": "12"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q21",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "mcq",
+      "title": "Number Line",
+      "instruction": "What number is 7 less than 17?",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson3/numberline_0_20.png",
+        "options": ["8", "9", "12", "10"],
+        "correctAnswer": "10"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l3_q22",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "number_ordering",
+      "title": "Order Numbers",
+      "instruction": "Put the cards in order from least to greatest",
+      "data": {
+        "numbers": [20, 9, 16, 11],
+        "orderType": "ascending",
+        "correctOrder": [9, 11, 16, 20],
+        "displayMode": "cards"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "interactive": false
+      }
+    },
+    {
+      "id": "u7_l3_q23",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "number_ordering",
+      "title": "Order Numbers",
+      "instruction": "Put the cards in order from least to greatest",
+      "data": {
+        "numbers": [10, 18, 14, 15],
+        "orderType": "ascending",
+        "correctOrder": [10, 14, 15, 18],
+        "displayMode": "cards"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "interactive": false
+      }
+    },
+    {
+      "id": "u7_l3_q24",
+      "unitId": "unit7",
+      "lessonId": "u7_l3",
+      "type": "mcq",
+      "title": "Number Line Position",
+      "instruction": "Look at the number line. How far did the rabbit 2 go? Write the number.",
+      "data": {
+        "questionImage": "./src/images/unit7/lesson3/rabbit_numberline.png",
+        "options": ["7", "8", "9", "13"],
+        "correctAnswer": "13"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

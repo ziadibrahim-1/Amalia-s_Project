@@ -1,0 +1,17 @@
+{
+  "type": "drag_match",
+  "description": "Drag each image to match the correct number",
+  "data": {
+    "pairs": [
+      {
+        "image": "string",
+        "correct": "number"
+      }
+    ]
+  },
+  "ui": {
+    "showFeedback": "boolean",
+    "autoNext": "boolean",
+    "sound": "boolean"
+  }
+}

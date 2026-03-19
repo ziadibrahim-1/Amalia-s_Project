@@ -1,0 +1,250 @@
+{
+  "lessonId": "u7_l2",
+  "unitId": "unit7",
+  "title": "Ten and Some Number (from 1 to 10)",
+  "description": "Understand teen numbers as 10 plus some number",
+  "questions": [
+    {
+      "id": "u7_l2_q1",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "Write the number of hidden blocks",
+      "data": {
+        "totalNumber": 10,
+        "tenFrameImage": "./src/images/unit7/lesson2/blocks_15_hidden.png",
+        "questionFormat": "You see 10 blocks. The number of hidden blocks is __",
+        "missingPart": "ones",
+        "correctAnswer": 0,
+        "showVisual": true
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l2_q2",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "Write the number of hidden blocks",
+      "data": {
+        "totalNumber": 17,
+        "tenFrameImage": "./src/images/unit7/lesson2/blocks_13_hidden.png",
+        "questionFormat": "You see 3 blocks. The number of hidden blocks is __",
+        "missingPart": "ones",
+        "correctAnswer": 7,
+        "showVisual": true
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l2_q3",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "What number goes in the box?",
+      "data": {
+        "totalNumber": 14,
+        "questionFormat": "10 and 4 make __",
+        "missingPart": "total",
+        "correctAnswer": 14,
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l2_q4",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "What number goes in the box?",
+      "data": {
+        "totalNumber": 19,
+        "questionFormat": "19 is 10 and __",
+        "missingPart": "ones",
+        "correctAnswer": 9,
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l2_q5",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "What number goes in the box?",
+      "data": {
+        "totalNumber": null,
+        "questionFormat": "10 and 9 make __",
+        "missingPart": "total",
+        "correctAnswer": 19,
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l2_q6",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "What number goes in the box?",
+      "data": {
+        "totalNumber": null,
+        "questionFormat": "10 and 6 make __",
+        "missingPart": "total",
+        "correctAnswer": 16,
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l2_q7",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "What number goes in the box?",
+      "data": {
+        "totalNumber": 17,
+        "questionFormat": "17 is __ and 7",
+        "missingPart": "tens",
+        "correctAnswer": 10,
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l2_q8",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "What number goes in the box?",
+      "data": {
+        "totalNumber": 15,
+        "questionFormat": "15 is 10 and __",
+        "missingPart": "ones",
+        "correctAnswer": 5,
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l2_q9",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "What number goes in the box?",
+      "data": {
+        "totalNumber": 12,
+        "questionFormat": "12 is __ and 2",
+        "missingPart": "tens",
+        "correctAnswer": 10,
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l2_q10",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "What number goes in the box?",
+      "data": {
+        "totalNumber": 14,
+        "questionFormat": "14 is 10 and __",
+        "missingPart": "ones",
+        "correctAnswer": 4,
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l2_q11",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "What number goes in the box?",
+      "data": {
+        "totalNumber": null,
+        "questionFormat": "10 and 5 make __",
+        "missingPart": "total",
+        "correctAnswer": 15,
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u7_l2_q12",
+      "unitId": "unit7",
+      "lessonId": "u7_l2",
+      "type": "ten_decomposition",
+      "title": "Ten and Some Number",
+      "instruction": "What number goes in the box?",
+      "data": {
+        "totalNumber": null,
+        "questionFormat": "10 and 8 make __",
+        "missingPart": "total",
+        "correctAnswer": 18,
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

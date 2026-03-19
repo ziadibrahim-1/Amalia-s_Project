@@ -1,0 +1,345 @@
+{
+  "lessonId": "u9_l1",
+  "unitId": "unit9",
+  "title": "Adding Three Numbers",
+  "description": "Learn to add three numbers from left to right",
+  "questions": [
+    {
+      "id": "u9_l1_q1",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Adding Three Numbers",
+      "instruction": "How many cats are there in total? Write the mathematical sentence and the answer.",
+      "data": {
+        "num1": 3,
+        "num2": 2,
+        "num3": 4,
+        "equation": "3 + 2 + 4",
+        "step1Result": 5,
+        "finalAnswer": 9,
+        "answerMode": "full",
+        "showSteps": true,
+        "visualStory": true,
+        "storyImages": [
+          "./src/images/unit9/lesson1/cats_step1.png",
+          "./src/images/unit9/lesson1/cats_step2.png",
+          "./src/images/unit9/lesson1/cats_step3.png"
+        ],
+        "storyText": [
+          "There are 3 cats.",
+          "2 more come.",
+          "Then 4 more come."
+        ],
+        "answerUnit": "cats",
+        "showHints": true,
+        "hints": [
+          "👉 Add from the left: 3 + 2 first",
+          "👉 Then add 4 to the answer"
+        ]
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u9_l1_q2",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 5,
+        "num2": 1,
+        "num3": 3,
+        "equation": "5 + 1 + 3",
+        "step1Result": 6,
+        "finalAnswer": 9,
+        "answerMode": "mcq",
+        "options": [7, 8, 10, 9],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q3",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 1,
+        "num2": 2,
+        "num3": 3,
+        "equation": "1 + 2 + 3",
+        "step1Result": 3,
+        "finalAnswer": 6,
+        "answerMode": "mcq",
+        "options": [6, 5, 4, 7],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q4",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 2,
+        "num2": 2,
+        "num3": 4,
+        "equation": "2 + 2 + 4",
+        "step1Result": 4,
+        "finalAnswer": 8,
+        "answerMode": "mcq",
+        "options": [6, 8, 7, 9],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q5",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 4,
+        "num2": 5,
+        "num3": 1,
+        "equation": "4 + 5 + 1",
+        "step1Result": 9,
+        "finalAnswer": 10,
+        "answerMode": "mcq",
+        "options": [8, 9, 10, 11],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q6",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 7,
+        "num2": 3,
+        "num3": 2,
+        "equation": "7 + 3 + 2",
+        "step1Result": 10,
+        "finalAnswer": 12,
+        "answerMode": "mcq",
+        "options": [10, 11, 13, 12],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q7",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 8,
+        "num2": 2,
+        "num3": 4,
+        "equation": "8 + 2 + 4",
+        "step1Result": 10,
+        "finalAnswer": 14,
+        "answerMode": "mcq",
+        "options": [12, 13, 14, 15],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q8",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 5,
+        "num2": 7,
+        "num3": 6,
+        "equation": "5 + 7 + 6",
+        "step1Result": 12,
+        "finalAnswer": 18,
+        "answerMode": "mcq",
+        "options": [18, 17, 16, 19],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q9",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Word Problem",
+      "instruction": "There are 5 dogs. Then 3 more dogs come. Then 2 more dogs come. How many dogs are there now in total? Write the mathematical sentence and the answer.",
+      "data": {
+        "num1": 5,
+        "num2": 3,
+        "num3": 2,
+        "equation": "5 + 3 + 2",
+        "step1Result": 8,
+        "finalAnswer": 10,
+        "answerMode": "full",
+        "showSteps": true,
+        "visualStory": true,
+        "storyImages": [
+          "./src/images/unit9/lesson1/dogs_step1.png",
+          "./src/images/unit9/lesson1/dogs_step2.png",
+          "./src/images/unit9/lesson1/dogs_step3.png"
+        ],
+        "answerUnit": "dogs"
+      }
+    },
+    {
+      "id": "u9_l1_q10",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Word Problem",
+      "instruction": "There are 6 people on the bus. Then 4 more get on. Then 3 more get on. How many people are on the bus now? Write the mathematical sentence and the answer.",
+      "data": {
+        "num1": 6,
+        "num2": 4,
+        "num3": 3,
+        "equation": "6 + 4 + 3",
+        "step1Result": 10,
+        "finalAnswer": 13,
+        "answerMode": "full",
+        "showSteps": true,
+        "visualStory": true,
+        "storyImages": [
+          "./src/images/unit9/lesson1/bus_step1.png",
+          "./src/images/unit9/lesson1/bus_step2.png",
+          "./src/images/unit9/lesson1/bus_step3.png"
+        ],
+        "answerUnit": "people"
+      }
+    },
+    {
+      "id": "u9_l1_q11",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 2,
+        "num2": 1,
+        "num3": 5,
+        "equation": "2 + 1 + 5",
+        "step1Result": 3,
+        "finalAnswer": 8,
+        "answerMode": "mcq",
+        "options": [6, 7, 8, 9],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q12",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 6,
+        "num2": 1,
+        "num3": 2,
+        "equation": "6 + 1 + 2",
+        "step1Result": 7,
+        "finalAnswer": 9,
+        "answerMode": "mcq",
+        "options": [9, 8, 7, 10],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q13",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 3,
+        "num2": 2,
+        "num3": 5,
+        "equation": "3 + 2 + 5",
+        "step1Result": 5,
+        "finalAnswer": 10,
+        "answerMode": "mcq",
+        "options": [8, 10, 9, 11],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q14",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 4,
+        "num2": 6,
+        "num3": 4,
+        "equation": "4 + 6 + 4",
+        "step1Result": 10,
+        "finalAnswer": 14,
+        "answerMode": "mcq",
+        "options": [12, 13, 15, 14],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q15",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 1,
+        "num2": 9,
+        "num3": 8,
+        "equation": "1 + 9 + 8",
+        "step1Result": 10,
+        "finalAnswer": 18,
+        "answerMode": "mcq",
+        "options": [16, 17, 18, 19],
+        "showSteps": false
+      }
+    },
+    {
+      "id": "u9_l1_q16",
+      "unitId": "unit9",
+      "lessonId": "u9_l1",
+      "type": "three_number_addition",
+      "title": "Add the Numbers",
+      "instruction": "Add the numbers",
+      "data": {
+        "num1": 4,
+        "num2": 8,
+        "num3": 7,
+        "equation": "4 + 8 + 7",
+        "step1Result": 12,
+        "finalAnswer": 19,
+        "answerMode": "mcq",
+        "options": [17, 19, 18, 20],
+        "showSteps": false
+      }
+    }
+  ]
+}

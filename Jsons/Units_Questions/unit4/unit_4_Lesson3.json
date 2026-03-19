@@ -1,0 +1,434 @@
+{
+  "lessonId": "u4_l3",
+  "unitId": "unit4",
+  "title": "Subtraction with Zero",
+  "description": "Learn subtraction with zero and number minus itself",
+  "questions": [
+    {
+      "id": "u4_l3_q1",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 2 - 0?",
+      "data": {
+        "equation": "2 - 0",
+        "num1": 2,
+        "num2": 0,
+        "correctAnswer": 2,
+        "answerMode": "mcq",
+        "options": [0, 1, 2, 3],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q2",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 7 - 7?",
+      "data": {
+        "equation": "7 - 7",
+        "num1": 7,
+        "num2": 7,
+        "correctAnswer": 0,
+        "answerMode": "mcq",
+        "options": [0, 1, 7, 14],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q3",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "subtraction_word_problem",
+      "title": "Subtraction with Zero",
+      "instruction": "Write the subtraction sentence and the answer",
+      "data": {
+        "problemText": "There are 3 oranges in a basket. You didn't eat any. How many are left?",
+        "image": "./src/images/unit4/lesson3/oranges_basket.png",
+        "num1": 3,
+        "num2": 0,
+        "correctAnswer": 3,
+        "correctEquation": "3 - 0",
+        "answerMode": "full",
+        "answerUnit": "oranges",
+        "hints": {
+          "num1Label": "oranges in basket",
+          "num2Label": "oranges you eat"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u4_l3_q4",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 1 - 0?",
+      "data": {
+        "equation": "1 - 0",
+        "num1": 1,
+        "num2": 0,
+        "correctAnswer": 1,
+        "answerMode": "mcq",
+        "options": [0, 3, 2, 1],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q5",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 9 - 0?",
+      "data": {
+        "equation": "9 - 0",
+        "num1": 9,
+        "num2": 0,
+        "correctAnswer": 9,
+        "answerMode": "mcq",
+        "options": [9, 8, 0, 10],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q6",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 6 - 1?",
+      "data": {
+        "equation": "6 - 1",
+        "num1": 6,
+        "num2": 1,
+        "correctAnswer": 5,
+        "answerMode": "mcq",
+        "options": [3, 4, 5, 6],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q7",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 4 - 4?",
+      "data": {
+        "equation": "4 - 4",
+        "num1": 4,
+        "num2": 4,
+        "correctAnswer": 0,
+        "answerMode": "mcq",
+        "options": [0, 1, 4, 8],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q8",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 5 - 5?",
+      "data": {
+        "equation": "5 - 5",
+        "num1": 5,
+        "num2": 5,
+        "correctAnswer": 0,
+        "answerMode": "mcq",
+        "options": [10, 1, 5, 0],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q9",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 7 - 3?",
+      "data": {
+        "equation": "7 - 3",
+        "num1": 7,
+        "num2": 3,
+        "correctAnswer": 4,
+        "answerMode": "mcq",
+        "options": [2, 3, 4, 5],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q10",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "subtraction_word_problem",
+      "title": "Subtraction with Zero",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 5 balls in the basket. You didn't take any. How many balls are left in the basket?",
+        "image": "./src/images/unit4/lesson3/balls_basket.png",
+        "num1": 5,
+        "num2": 0,
+        "correctAnswer": 5,
+        "correctEquation": "5 - 0",
+        "answerMode": "full",
+        "answerUnit": "balls",
+        "hints": {
+          "num1Label": "balls in basket",
+          "num2Label": "balls you take"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u4_l3_q11",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "subtraction_word_problem",
+      "title": "Subtraction with Zero",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 6 birds. All 6 flew away. How many birds are left?",
+        "image": "./src/images/unit4/lesson3/birds.png",
+        "num1": 6,
+        "num2": 6,
+        "correctAnswer": 0,
+        "correctEquation": "6 - 6",
+        "answerMode": "full",
+        "answerUnit": "birds",
+        "hints": {
+          "num1Label": "birds at first",
+          "num2Label": "birds that flew away"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u4_l3_q12",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 3 - 0?",
+      "data": {
+        "equation": "3 - 0",
+        "num1": 3,
+        "num2": 0,
+        "correctAnswer": 3,
+        "answerMode": "mcq",
+        "options": [0, 2, 3, 4],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q13",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 5 - 0?",
+      "data": {
+        "equation": "5 - 0",
+        "num1": 5,
+        "num2": 0,
+        "correctAnswer": 5,
+        "answerMode": "mcq",
+        "options": [0, 4, 6, 5],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q14",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 8 - 2?",
+      "data": {
+        "equation": "8 - 2",
+        "num1": 8,
+        "num2": 2,
+        "correctAnswer": 6,
+        "answerMode": "mcq",
+        "options": [4, 5, 6, 7],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q15",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 6 - 6?",
+      "data": {
+        "equation": "6 - 6",
+        "num1": 6,
+        "num2": 6,
+        "correctAnswer": 0,
+        "answerMode": "mcq",
+        "options": [0, 1, 6, 12],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q16",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "simple_subtraction",
+      "title": "Let's Do Subtraction",
+      "instruction": "What is 3 - 3?",
+      "data": {
+        "equation": "3 - 3",
+        "num1": 3,
+        "num2": 3,
+        "correctAnswer": 0,
+        "answerMode": "mcq",
+        "options": [1, 0, 3, 6],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u4_l3_q17",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "subtraction_word_problem",
+      "title": "Subtraction with Zero",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 5 apples. You didn't eat any. How many apples are left?",
+        "image": "./src/images/unit4/lesson3/apples.png",
+        "num1": 5,
+        "num2": 0,
+        "correctAnswer": 5,
+        "correctEquation": "5 - 0",
+        "answerMode": "full",
+        "answerUnit": "apples",
+        "hints": {
+          "num1Label": "apples you have",
+          "num2Label": "apples you eat"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u4_l3_q18",
+      "unitId": "unit4",
+      "lessonId": "u4_l3",
+      "type": "subtraction_word_problem",
+      "title": "Subtraction with Zero",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 2 pieces of cake. You ate all 2. How many are left?",
+        "image": "./src/images/unit4/lesson3/cake.png",
+        "num1": 2,
+        "num2": 2,
+        "correctAnswer": 0,
+        "correctEquation": "2 - 2",
+        "answerMode": "full",
+        "answerUnit": "pieces",
+        "hints": {
+          "num1Label": "pieces of cake",
+          "num2Label": "pieces you eat"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    }
+  ]
+}

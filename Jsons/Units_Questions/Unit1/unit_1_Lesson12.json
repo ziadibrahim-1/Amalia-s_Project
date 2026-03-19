@@ -1,0 +1,106 @@
+[
+  {
+    "id": "u1_l12_q1",
+    "unitId": "unit1",
+    "lessonId": "u1_l12",
+    "type": "compare_numbers",
+    "title": "Which is bigger?",
+    "instruction": "Tap the bigger number",
+    "data": {
+      "mode": "bigger",
+      "question": { "left": 1, "right": 3, "correct": 3 }
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true, "highlightAnswer": true }
+  },
+  {
+    "id": "u1_l12_q2",
+    "unitId": "unit1",
+    "lessonId": "u1_l12",
+    "type": "compare_numbers",
+    "title": "Which is bigger?",
+    "instruction": "Tap the bigger number",
+    "data": {
+      "mode": "bigger",
+      "question": { "left": 5, "right": 2, "correct": 5 }
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true, "highlightAnswer": true }
+  },
+  {
+    "id": "u1_l12_q3",
+    "unitId": "unit1",
+    "lessonId": "u1_l12",
+    "type": "compare_numbers",
+    "title": "Which is smaller?",
+    "instruction": "Tap the smaller number",
+    "data": {
+      "mode": "smaller",
+      "question": { "left": 8, "right": 4, "correct": 4 }
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true, "highlightAnswer": true }
+  },
+  {
+    "id": "u1_l12_q4",
+    "unitId": "unit1",
+    "lessonId": "u1_l12",
+    "type": "compare_numbers",
+    "title": "Which is smaller?",
+    "instruction": "Tap the smaller number",
+    "data": {
+      "mode": "smaller",
+      "question": { "left": 7, "right": 10, "correct": 7 }
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true, "highlightAnswer": true }
+  },
+  {
+    "id": "u1_l12_q5",
+    "unitId": "unit1",
+    "lessonId": "u1_l12",
+    "type": "compare_numbers",
+    "title": "Which is bigger?",
+    "instruction": "Tap the bigger number",
+    "data": {
+      "mode": "bigger",
+      "question": { "left": 2, "right": 10, "correct": 10 }
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true, "highlightAnswer": true }
+  },
+  {
+    "id": "u1_l12_q6",
+    "unitId": "unit1",
+    "lessonId": "u1_l12",
+    "type": "compare_numbers",
+    "title": "Which is bigger?",
+    "instruction": "Tap the bigger number",
+    "data": {
+      "mode": "bigger",
+      "question": { "left": 7, "right": 5, "correct": 7 }
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true, "highlightAnswer": true }
+  },
+  {
+    "id": "u1_l12_q7",
+    "unitId": "unit1",
+    "lessonId": "u1_l12",
+    "type": "compare_numbers",
+    "title": "Which is smaller?",
+    "instruction": "Tap the smaller number",
+    "data": {
+      "mode": "smaller",
+      "question": { "left": 8, "right": 1, "correct": 1 }
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true, "highlightAnswer": true }
+  },
+  {
+    "id": "u1_l12_q8",
+    "unitId": "unit1",
+    "lessonId": "u1_l12",
+    "type": "compare_numbers",
+    "title": "Which is smaller?",
+    "instruction": "Tap the smaller number",
+    "data": {
+      "mode": "smaller",
+      "question": { "left": 5, "right": 9, "correct": 5 }
+    },
+    "ui": { "showFeedback": true, "autoNext": true, "sound": true, "highlightAnswer": true }
+  }
+]

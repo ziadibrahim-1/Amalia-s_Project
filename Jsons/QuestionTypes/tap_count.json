@@ -1,0 +1,18 @@
+{
+  "type": "tap_count",
+  "description": "Count objects and select the correct number using number pad",
+  "data": {
+    "mode": ["demo", "confirm", "select_number"],
+    "questions": [
+      {
+        "image": "string",
+        "correctCount": "number"
+      }
+    ]
+  },
+  "ui": {
+    "showFeedback": "boolean",
+    "autoNext": "boolean",
+    "sound": "boolean"
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "lessonId": "u3_l1",
+  "unitId": "unit3",
+  "title": "Addition (Part 1)",
+  "description": "Learn basic addition with pictures and simple equations",
+  "questions": [
+    {
+      "id": "u3_l1_q1",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "mcq",
+      "title": "Which Picture Shows 2 + 4?",
+      "instruction": "Look at the pictures and choose which one shows 2 + 4",
+      "data": {
+        "questionImage": "./src/images/unit3/lesson1/question_context.png",
+        "options": [
+          {
+            "id": "A",
+            "image": "./src/images/unit3/lesson1/picture_A.png",
+            "label": "Picture A"
+          },
+          {
+            "id": "B",
+            "image": "./src/images/unit3/lesson1/picture_B.png",
+            "label": "Picture B"
+          },
+          {
+            "id": "C",
+            "image": "./src/images/unit3/lesson1/picture_C.png",
+            "label": "Picture C"
+          }
+        ],
+        "correctAnswer": "B"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "displayMode": "image_options"
+      }
+    },
+    {
+      "id": "u3_l1_q2",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "Solve the addition problem",
+      "data": {
+        "equation": "3 + 1",
+        "num1": 3,
+        "num2": 1,
+        "correctAnswer": 4,
+        "answerMode": "mcq",
+        "options": [2, 4, 3, 5],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q3",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "Solve the addition problem",
+      "data": {
+        "equation": "4 + 3",
+        "num1": 4,
+        "num2": 3,
+        "correctAnswer": 7,
+        "answerMode": "mcq",
+        "options": [5, 6, 7, 8],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q4",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "Solve the addition problem",
+      "data": {
+        "equation": "2 + 8",
+        "num1": 2,
+        "num2": 8,
+        "correctAnswer": 10,
+        "answerMode": "mcq",
+        "options": [10, 9, 9, 11],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q5",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 3 + 1?",
+      "data": {
+        "equation": "3 + 1",
+        "num1": 3,
+        "num2": 1,
+        "correctAnswer": 4,
+        "answerMode": "mcq",
+        "options": [2, 3, 5, 4],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q6",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 4 + 3?",
+      "data": {
+        "equation": "4 + 3",
+        "num1": 4,
+        "num2": 3,
+        "correctAnswer": 7,
+        "answerMode": "mcq",
+        "options": [5, 6, 7, 8],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q7",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "mcq",
+      "title": "Which Picture Shows 5 + 3?",
+      "instruction": "Look at the pictures and choose which one shows 5 + 3",
+      "data": {
+        "questionImage": "./src/images/unit3/lesson1/tally_marks_question.png",
+        "options": [
+          {
+            "id": "A",
+            "image": "./src/images/unit3/lesson1/tally_A.png",
+            "label": "Picture A"
+          },
+          {
+            "id": "B",
+            "image": "./src/images/unit3/lesson1/tally_B.png",
+            "label": "Picture B"
+          },
+          {
+            "id": "C",
+            "image": "./src/images/unit3/lesson1/tally_C.png",
+            "label": "Picture C"
+          }
+        ],
+        "correctAnswer": "A"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "displayMode": "image_options"
+      }
+    },
+    {
+      "id": "u3_l1_q8",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 1 + 7?",
+      "data": {
+        "equation": "1 + 7",
+        "num1": 1,
+        "num2": 7,
+        "correctAnswer": 8,
+        "answerMode": "mcq",
+        "options": [6, 8, 7, 9],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q9",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 3 + 3?",
+      "data": {
+        "equation": "3 + 3",
+        "num1": 3,
+        "num2": 3,
+        "correctAnswer": 6,
+        "answerMode": "mcq",
+        "options": [4, 5, 6, 7],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q10",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 6 + 2?",
+      "data": {
+        "equation": "6 + 2",
+        "num1": 6,
+        "num2": 2,
+        "correctAnswer": 8,
+        "answerMode": "mcq",
+        "options": [6, 7, 10, 8],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q11",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "mcq",
+      "title": "Which Picture Shows 3 + 6?",
+      "instruction": "Look at the pictures and choose which one shows 3 + 6",
+      "data": {
+        "questionImage": "./src/images/unit3/lesson1/butterflies_question.png",
+        "options": [
+          {
+            "id": "A",
+            "image": "./src/images/unit3/lesson1/butterflies_A.png",
+            "label": "Picture A"
+          },
+          {
+            "id": "B",
+            "image": "./src/images/unit3/lesson1/butterflies_B.png",
+            "label": "Picture B"
+          },
+          {
+            "id": "C",
+            "image": "./src/images/unit3/lesson1/butterflies_C.png",
+            "label": "Picture C"
+          }
+        ],
+        "correctAnswer": "C"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "displayMode": "image_options"
+      }
+    },
+    {
+      "id": "u3_l1_q12",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 1 + 4?",
+      "data": {
+        "equation": "1 + 4",
+        "num1": 1,
+        "num2": 4,
+        "correctAnswer": 5,
+        "answerMode": "mcq",
+        "options": [3, 4, 5, 6],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q13",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 2 + 2?",
+      "data": {
+        "equation": "2 + 2",
+        "num1": 2,
+        "num2": 2,
+        "correctAnswer": 4,
+        "answerMode": "mcq",
+        "options": [2, 3, 4, 5],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q14",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 5 + 2?",
+      "data": {
+        "equation": "5 + 2",
+        "num1": 5,
+        "num2": 2,
+        "correctAnswer": 7,
+        "answerMode": "mcq",
+        "options": [5, 6, 8, 7],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q15",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 5 + 4?",
+      "data": {
+        "equation": "5 + 4",
+        "num1": 5,
+        "num2": 4,
+        "correctAnswer": 9,
+        "answerMode": "mcq",
+        "options": [8, 9, 10, 11],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q16",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 7 + 3?",
+      "data": {
+        "equation": "7 + 3",
+        "num1": 7,
+        "num2": 3,
+        "correctAnswer": 10,
+        "answerMode": "mcq",
+        "options": [9, 5, 11, 10],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u3_l1_q17",
+      "unitId": "unit3",
+      "lessonId": "u3_l1",
+      "type": "simple_addition",
+      "title": "Let's Do Addition",
+      "instruction": "What is 9 + 1?",
+      "data": {
+        "equation": "9 + 1",
+        "num1": 9,
+        "num2": 1,
+        "correctAnswer": 10,
+        "answerMode": "mcq",
+        "options": [8, 9, 10, 11],
+        "showVisual": false
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

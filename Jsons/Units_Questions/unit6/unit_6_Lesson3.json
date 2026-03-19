@@ -1,0 +1,498 @@
+{
+  "lessonId": "u6_l3",
+  "unitId": "unit6",
+  "title": "Let's Compare Results",
+  "description": "Compare data between two groups using pictographs",
+  "questions": [
+    {
+      "id": "u6_l3_q1",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which class has more grapes?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/fruits_two_classes.png",
+        "group1": {
+          "name": "Class 1",
+          "categories": ["Strawberries", "Melons", "Oranges", "Grapes"],
+          "values": [6, 5, 2, 8]
+        },
+        "group2": {
+          "name": "Class 2",
+          "categories": ["Strawberries", "Melons", "Oranges", "Grapes"],
+          "values": [7, 6, 2, 5]
+        },
+        "question": "Which class has more grapes?",
+        "questionType": "more",
+        "category": "Grapes",
+        "options": ["Class 1", "Class 2", "Same number"],
+        "correctAnswer": "Class 1"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q2",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which class has more melons?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/fruits_two_classes.png",
+        "group1": {
+          "name": "Class 1",
+          "values": [6, 5, 2, 8]
+        },
+        "group2": {
+          "name": "Class 2",
+          "values": [7, 6, 2, 5]
+        },
+        "question": "Which class has more melons?",
+        "questionType": "more",
+        "category": "Melons",
+        "options": ["Class 1", "Class 2", "Same number"],
+        "correctAnswer": "Class 2"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q3",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which fruit has the same number in both classes?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/fruits_two_classes.png",
+        "group1": {
+          "name": "Class 1",
+          "categories": ["Strawberries", "Melons", "Oranges", "Grapes"],
+          "values": [6, 5, 2, 8]
+        },
+        "group2": {
+          "name": "Class 2",
+          "categories": ["Strawberries", "Melons", "Oranges", "Grapes"],
+          "values": [7, 6, 2, 5]
+        },
+        "question": "Which fruit has the same number in both classes?",
+        "questionType": "same",
+        "options": ["Strawberries", "Melons", "Oranges", "Grapes"],
+        "correctAnswer": "Oranges"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q4",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which group has more stars?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/shapes_winning_card1.png",
+        "group1": {
+          "name": "Group 1",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [6, 6, 2, 8, 4]
+        },
+        "group2": {
+          "name": "Group 2",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [5, 8, 2, 5, 5]
+        },
+        "question": "Which group has more stars?",
+        "questionType": "more",
+        "category": "Stars",
+        "options": ["Group 1", "Group 2", "Same number"],
+        "correctAnswer": "Group 1"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q5",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which card has the same number in both groups?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/shapes_winning_card1.png",
+        "group1": {
+          "name": "Group 1",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [6, 6, 2, 8, 4]
+        },
+        "group2": {
+          "name": "Group 2",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [5, 8, 2, 5, 5]
+        },
+        "question": "Which card has the same number in both groups?",
+        "questionType": "same",
+        "options": ["Triangles", "Hearts", "Squares", "Stars and Circles"],
+        "correctAnswer": "Squares"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q6",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "If the winning card is the heart, which group is the winner?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/shapes_winning_card1.png",
+        "group1": {
+          "name": "Group 1",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [6, 6, 2, 8, 4]
+        },
+        "group2": {
+          "name": "Group 2",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [5, 8, 2, 5, 5]
+        },
+        "question": "If the winning card is the heart, which group is the winner?",
+        "questionType": "winner",
+        "winningCard": "Hearts",
+        "options": ["Group 1", "Group 2", "Tie"],
+        "correctAnswer": "Group 2"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q7",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "If the winning card is the triangle, which group is the winner?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/shapes_winning_card1.png",
+        "group1": {
+          "name": "Group 1",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [6, 6, 2, 8, 4]
+        },
+        "group2": {
+          "name": "Group 2",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [5, 8, 2, 5, 5]
+        },
+        "question": "If the winning card is the triangle, which group is the winner?",
+        "questionType": "winner",
+        "winningCard": "Triangles",
+        "options": ["Group 1", "Group 2", "Tie"],
+        "correctAnswer": "Group 1"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q8",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which class has more dogs?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/animals_two_classes.png",
+        "group1": {
+          "name": "Class 1",
+          "categories": ["Giraffes", "Dogs", "Cats", "Camels"],
+          "values": [5, 6, 7, 6]
+        },
+        "group2": {
+          "name": "Class 2",
+          "categories": ["Giraffes", "Dogs", "Cats", "Camels"],
+          "values": [5, 8, 4, 3]
+        },
+        "question": "Which class has more dogs?",
+        "questionType": "more",
+        "category": "Dogs",
+        "options": ["Class 1", "Class 2", "Same number"],
+        "correctAnswer": "Class 2"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q9",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which class has more camels?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/animals_two_classes.png",
+        "group1": {
+          "name": "Class 1",
+          "categories": ["Giraffes", "Dogs", "Cats", "Camels"],
+          "values": [5, 6, 7, 6]
+        },
+        "group2": {
+          "name": "Class 2",
+          "categories": ["Giraffes", "Dogs", "Cats", "Camels"],
+          "values": [5, 8, 4, 3]
+        },
+        "question": "Which class has more camels?",
+        "questionType": "more",
+        "category": "Camels",
+        "options": ["Class 1", "Class 2", "Same number"],
+        "correctAnswer": "Class 1"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q10",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which animal is the most in Class 1?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/animals_two_classes.png",
+        "group1": {
+          "name": "Class 1",
+          "categories": ["Giraffes", "Dogs", "Cats", "Camels"],
+          "values": [5, 6, 7, 6]
+        },
+        "group2": {
+          "name": "Class 2",
+          "categories": ["Giraffes", "Dogs", "Cats", "Camels"],
+          "values": [5, 8, 4, 3]
+        },
+        "question": "Which animal is the most in Class 1?",
+        "questionType": "most_in_group",
+        "targetGroup": "Class 1",
+        "options": ["Giraffes", "Dogs", "Cats", "All the same"],
+        "correctAnswer": "Cats"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q11",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which animal has the same number in both classes?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/animals_two_classes.png",
+        "group1": {
+          "name": "Class 1",
+          "categories": ["Giraffes", "Dogs", "Cats", "Camels"],
+          "values": [5, 6, 7, 6]
+        },
+        "group2": {
+          "name": "Class 2",
+          "categories": ["Giraffes", "Dogs", "Cats", "Camels"],
+          "values": [5, 8, 4, 3]
+        },
+        "question": "Which animal has the same number in both classes?",
+        "questionType": "same",
+        "options": ["Giraffes", "Dogs", "All animals", "None"],
+        "correctAnswer": "Giraffes"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q12",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which group has more hearts?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/shapes_winning_card2.png",
+        "group1": {
+          "name": "Group 1",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [3, 5, 7, 4, 6]
+        },
+        "group2": {
+          "name": "Group 2",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [5, 2, 6, 7, 5]
+        },
+        "question": "Which group has more hearts?",
+        "questionType": "more",
+        "category": "Hearts",
+        "options": ["Group 1", "Group 2", "Same number"],
+        "correctAnswer": "Group 1"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q13",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which card is the most in Group 1?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/shapes_winning_card2.png",
+        "group1": {
+          "name": "Group 1",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [3, 5, 7, 4, 6]
+        },
+        "group2": {
+          "name": "Group 2",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [5, 2, 6, 7, 5]
+        },
+        "question": "Which card is the most in Group 1?",
+        "questionType": "most_in_group",
+        "targetGroup": "Group 1",
+        "options": ["Triangles", "Stars", "Hearts", "Squares"],
+        "correctAnswer": "Squares"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q14",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "If the winning card is the circle, which group is the winner?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/shapes_winning_card2.png",
+        "group1": {
+          "name": "Group 1",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [3, 5, 7, 4, 6]
+        },
+        "group2": {
+          "name": "Group 2",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [5, 2, 6, 7, 5]
+        },
+        "question": "If the winning card is the circle, which group is the winner?",
+        "questionType": "winner",
+        "winningCard": "Circles",
+        "options": ["Group 2", "Group 1", "Tie"],
+        "correctAnswer": "Group 1"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q15",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "If the winning card is the triangle, which group is the winner?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/shapes_winning_card2.png",
+        "group1": {
+          "name": "Group 1",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [3, 5, 7, 4, 6]
+        },
+        "group2": {
+          "name": "Group 2",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [5, 2, 6, 7, 5]
+        },
+        "question": "If the winning card is the triangle, which group is the winner?",
+        "questionType": "winner",
+        "winningCard": "Triangles",
+        "options": ["Group 1", "Group 2", "Tie"],
+        "correctAnswer": "Group 2"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u6_l3_q16",
+      "unitId": "unit6",
+      "lessonId": "u6_l3",
+      "type": "pictograph_comparison",
+      "title": "Let's Compare Results",
+      "instruction": "Which shape has the same number in both groups?",
+      "data": {
+        "chartImage": "./src/images/unit6/lesson3/shapes_winning_card2.png",
+        "group1": {
+          "name": "Group 1",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [3, 5, 7, 4, 6]
+        },
+        "group2": {
+          "name": "Group 2",
+          "categories": ["Triangles", "Circles", "Squares", "Stars", "Hearts"],
+          "values": [5, 2, 6, 7, 5]
+        },
+        "question": "Which shape has the same number in both groups?",
+        "questionType": "same",
+        "options": ["Hearts", "Stars and Squares", "All shapes", "None"],
+        "correctAnswer": "None"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

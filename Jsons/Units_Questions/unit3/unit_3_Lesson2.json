@@ -1,0 +1,197 @@
+{
+  "lessonId": "u3_l2",
+  "unitId": "unit3",
+  "title": "Addition (Part 2)",
+  "description": "Solve addition word problems with visual aids",
+  "questions": [
+    {
+      "id": "u3_l2_q1",
+      "unitId": "unit3",
+      "lessonId": "u3_l2",
+      "type": "addition_word_problem",
+      "title": "Fish Problem",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 2 orange fish and 3 blue fish. How many fish are there in total?",
+        "image": "./src/images/unit3/lesson2/fish_orange_blue.png",
+        "num1": 2,
+        "num2": 3,
+        "correctAnswer": 5,
+        "correctEquation": "2 + 3",
+        "answerMode": "full",
+        "hints": {
+          "num1Label": "orange fish",
+          "num2Label": "blue fish"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u3_l2_q2",
+      "unitId": "unit3",
+      "lessonId": "u3_l2",
+      "type": "addition_word_problem",
+      "title": "Car Problem",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 6 cars. Then 3 more cars come. How many cars are there in total?",
+        "image": "./src/images/unit3/lesson2/cars_problem.png",
+        "num1": 6,
+        "num2": 3,
+        "correctAnswer": 9,
+        "correctEquation": "6 + 3",
+        "answerMode": "full",
+        "hints": {
+          "num1Label": "cars at first",
+          "num2Label": "cars that came"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u3_l2_q3",
+      "unitId": "unit3",
+      "lessonId": "u3_l2",
+      "type": "addition_word_problem",
+      "title": "Pencil Problem",
+      "instruction": "Write the addition sentence and answer",
+      "data": {
+        "problemText": "You have 1 pencil and 4 more pencils. How many pencils are there in total?",
+        "image": "./src/images/unit3/lesson2/pencils.png",
+        "num1": 1,
+        "num2": 4,
+        "correctAnswer": 5,
+        "correctEquation": "1 + 4",
+        "answerMode": "full",
+        "hints": {
+          "num1Label": "pencils you have",
+          "num2Label": "more pencils"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u3_l2_q4",
+      "unitId": "unit3",
+      "lessonId": "u3_l2",
+      "type": "addition_word_problem",
+      "title": "Cat Problem",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 5 cats. Then 3 more cats come. How many cats are there now?",
+        "image": "./src/images/unit3/lesson2/cats_problem.png",
+        "num1": 5,
+        "num2": 3,
+        "correctAnswer": 8,
+        "correctEquation": "5 + 3",
+        "answerMode": "full",
+        "hints": {
+          "num1Label": "cats at first",
+          "num2Label": "cats that came"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u3_l2_q5",
+      "unitId": "unit3",
+      "lessonId": "u3_l2",
+      "type": "addition_word_problem",
+      "title": "Bicycle Problem",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 3 red bicycles and 4 blue bicycles. How many bicycles are there in total?",
+        "image": "./src/images/unit3/lesson2/bicycles.png",
+        "num1": 3,
+        "num2": 4,
+        "correctAnswer": 7,
+        "correctEquation": "3 + 4",
+        "answerMode": "full",
+        "hints": {
+          "num1Label": "red bicycles",
+          "num2Label": "blue bicycles"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u3_l2_q6",
+      "unitId": "unit3",
+      "lessonId": "u3_l2",
+      "type": "addition_word_problem",
+      "title": "Rabbit Problem",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 5 rabbits. Then 1 more rabbit comes. How many rabbits are there now?",
+        "image": "./src/images/unit3/lesson2/rabbits.png",
+        "num1": 5,
+        "num2": 1,
+        "correctAnswer": 6,
+        "correctEquation": "5 + 1",
+        "answerMode": "full",
+        "hints": {
+          "num1Label": "rabbits at first",
+          "num2Label": "rabbit that came"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u3_l2_q7",
+      "unitId": "unit3",
+      "lessonId": "u3_l2",
+      "type": "addition_word_problem",
+      "title": "Bottle Problem",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 4 bottles of water and 6 bottles of orange juice. How many bottles are there in total?",
+        "image": "./src/images/unit3/lesson2/bottles.png",
+        "num1": 4,
+        "num2": 6,
+        "correctAnswer": 10,
+        "correctEquation": "4 + 6",
+        "answerMode": "full",
+        "hints": {
+          "num1Label": "water bottles",
+          "num2Label": "juice bottles"
+        }
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    }
+  ]
+}

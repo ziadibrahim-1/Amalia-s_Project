@@ -1,0 +1,28 @@
+{
+  "unitNumber": 6,
+  "id": "unit6",
+  "title": "Representing Data",
+  "lessons": [
+    {
+      "id": "u6_l1",
+      "title": "Representing Data with Pictures",
+      "description": "Count objects and organize data",
+      "estimatedTime": "5 min",
+      "stars": 0
+    },
+    {
+      "id": "u6_l2",
+      "title": "What We Learn from Results",
+      "description": "Read pictographs and answer questions about data",
+      "estimatedTime": "15 min",
+      "stars": 0
+    },
+    {
+      "id": "u6_l3",
+      "title": "Let's Compare Results",
+      "description": "Compare data between two groups using pictographs",
+      "estimatedTime": "15 min",
+      "stars": 0
+    }
+  ]
+}

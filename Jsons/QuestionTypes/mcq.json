@@ -1,0 +1,16 @@
+{
+  "type": "mcq",
+  "description": "Multiple choice questions (What makes X)",
+  "data": {
+    "question": "string",
+    "base": "number",
+    "given": "number",
+    "options": ["number"],
+    "correct": "number"
+  },
+  "ui": {
+    "showFeedback": "boolean",
+    "autoNext": "boolean",
+    "sound": "boolean"
+  }
+}

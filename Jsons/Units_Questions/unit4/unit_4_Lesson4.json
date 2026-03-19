@@ -1,0 +1,132 @@
+{
+  "lessonId": "u4_l4",
+  "unitId": "unit4",
+  "title": "What Is the Difference?",
+  "description": "Find the difference between two quantities using subtraction",
+  "questions": [
+    {
+      "id": "u4_l4_q1",
+      "unitId": "unit4",
+      "lessonId": "u4_l4",
+      "type": "difference_problem",
+      "title": "What Is the Difference?",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "What is the difference between the number of cars and bicycles?",
+        "image": "./src/images/unit4/lesson4/cars_bicycles.png",
+        "item1": {
+          "name": "cars",
+          "count": 8,
+          "emoji": "🚗"
+        },
+        "item2": {
+          "name": "bicycles",
+          "count": 6,
+          "emoji": "🚲"
+        },
+        "correctEquation": "8 - 6",
+        "correctAnswer": 2,
+        "answerMode": "full"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u4_l4_q2",
+      "unitId": "unit4",
+      "lessonId": "u4_l4",
+      "type": "difference_problem",
+      "title": "What Is the Difference?",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "There are 6 red flowers. There are also 4 white flowers. What is the difference between the number of red flowers and white flowers?",
+        "image": "./src/images/unit4/lesson4/red_white_flowers.png",
+        "item1": {
+          "name": "red flowers",
+          "count": 6,
+          "emoji": "🌹"
+        },
+        "item2": {
+          "name": "white flowers",
+          "count": 4,
+          "emoji": "🌼"
+        },
+        "correctEquation": "6 - 4",
+        "correctAnswer": 2,
+        "answerMode": "full"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u4_l4_q3",
+      "unitId": "unit4",
+      "lessonId": "u4_l4",
+      "type": "difference_problem",
+      "title": "What Is the Difference?",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "What is the difference between the number of watermelons and melons?",
+        "image": "./src/images/unit4/lesson4/watermelons_melons.png",
+        "item1": {
+          "name": "watermelons",
+          "count": 10,
+          "emoji": "🍉"
+        },
+        "item2": {
+          "name": "melons",
+          "count": 5,
+          "emoji": "🍈"
+        },
+        "correctEquation": "10 - 5",
+        "correctAnswer": 5,
+        "answerMode": "full"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    },
+    {
+      "id": "u4_l4_q4",
+      "unitId": "unit4",
+      "lessonId": "u4_l4",
+      "type": "difference_problem",
+      "title": "What Is the Difference?",
+      "instruction": "Write the mathematical sentence and the answer",
+      "data": {
+        "problemText": "What is the difference between the number of candies and cakes?",
+        "image": "./src/images/unit4/lesson4/candies_cakes.png",
+        "item1": {
+          "name": "candies",
+          "count": 7,
+          "emoji": "🍬"
+        },
+        "item2": {
+          "name": "cakes",
+          "count": 5,
+          "emoji": "🍰"
+        },
+        "correctEquation": "7 - 5",
+        "correctAnswer": 2,
+        "answerMode": "full"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true,
+        "showHint": true
+      }
+    }
+  ]
+}

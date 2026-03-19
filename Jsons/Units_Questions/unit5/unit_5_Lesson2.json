@@ -1,0 +1,76 @@
+{
+  "lessonId": "u5_l2",
+  "unitId": "unit5",
+  "title": "How Can We Measure?",
+  "description": "Learn different ways to measure length using objects",
+  "questions": [
+    {
+      "id": "u5_l2_q1",
+      "unitId": "unit5",
+      "lessonId": "u5_l2",
+      "type": "mcq",
+      "title": "How Can We Measure?",
+      "instruction": "If you can't line up the ends, how can you compare lengths?",
+      "data": {
+        "options": [
+          "Use objects as a pencil, your finger, or a tape",
+          "Just guess",
+          "Don't compare",
+          "Only use your eyes"
+        ],
+        "correctAnswer": "Use objects as a pencil, your finger, or a tape"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l2_q2",
+      "unitId": "unit5",
+      "lessonId": "u5_l2",
+      "type": "mcq",
+      "title": "Measuring Length",
+      "instruction": "What can you use to measure the length of a desk?",
+      "data": {
+        "questionImage": "./src/images/unit5/lesson2/desk_concept.png",
+        "options": [
+          "A tape",
+          "Your finger",
+          "A pencil",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l2_q3",
+      "unitId": "unit5",
+      "lessonId": "u5_l2",
+      "type": "mcq",
+      "title": "Measuring Width",
+      "instruction": "How can you measure the width of a piece of paper?",
+      "data": {
+        "questionImage": "./src/images/unit5/lesson2/paper_concept.png",
+        "options": [
+          "Fold the paper and stack it",
+          "Use a tape",
+          "Use your finger to check how many finger spaces",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

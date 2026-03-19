@@ -1,0 +1,18 @@
+{
+  "type": "compare_numbers",
+  "description": "Choose the bigger or smaller number between two numbers",
+  "data": {
+    "mode": ["bigger", "smaller"],
+    "question": {
+      "left": "number",
+      "right": "number",
+      "correct": "number"
+    }
+  },
+  "ui": {
+    "showFeedback": "boolean",
+    "autoNext": "boolean",
+    "sound": "boolean",
+    "highlightAnswer": "boolean"
+  }
+}

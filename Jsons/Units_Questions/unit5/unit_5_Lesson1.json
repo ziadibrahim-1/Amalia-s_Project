@@ -1,0 +1,176 @@
+{
+  "lessonId": "u5_l1",
+  "unitId": "unit5",
+  "title": "Which One Is Longer?",
+  "description": "Compare lengths by lining up one end",
+  "questions": [
+    {
+      "id": "u5_l1_q1",
+      "unitId": "unit5",
+      "lessonId": "u5_l1",
+      "type": "length_comparison",
+      "title": "Which One Is Longer?",
+      "instruction": "When you line up one end, which string is longer?",
+      "data": {
+        "image": "./src/images/unit5/lesson1/red_blue_string.png",
+        "comparisonType": "longer",
+        "item1": {
+          "name": "red string",
+          "color": "red",
+          "id": "item1"
+        },
+        "item2": {
+          "name": "blue string",
+          "color": "blue",
+          "id": "item2"
+        },
+        "correctAnswer": "item2"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l1_q2",
+      "unitId": "unit5",
+      "lessonId": "u5_l1",
+      "type": "length_comparison",
+      "title": "Which One Is Longer?",
+      "instruction": "When you line up one end, which pencil is longer?",
+      "data": {
+        "image": "./src/images/unit5/lesson1/red_yellow_pencil.png",
+        "comparisonType": "longer",
+        "item1": {
+          "name": "red pencil",
+          "color": "red",
+          "id": "item1"
+        },
+        "item2": {
+          "name": "yellow pencil",
+          "color": "yellow",
+          "id": "item2"
+        },
+        "correctAnswer": "item1"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l1_q3",
+      "unitId": "unit5",
+      "lessonId": "u5_l1",
+      "type": "length_comparison",
+      "title": "Which One Is Longer?",
+      "instruction": "When you line up one end, which toothbrush is longer?",
+      "data": {
+        "image": "./src/images/unit5/lesson1/toothbrushes.png",
+        "comparisonType": "longer",
+        "item1": {
+          "name": "blue toothbrush",
+          "color": "blue",
+          "id": "item1"
+        },
+        "item2": {
+          "name": "green toothbrush",
+          "color": "green",
+          "id": "item2"
+        },
+        "correctAnswer": "item1"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l1_q4",
+      "unitId": "unit5",
+      "lessonId": "u5_l1",
+      "type": "length_comparison",
+      "title": "Which One Is Longer?",
+      "instruction": "When you line up one end, which umbrella is longer?",
+      "data": {
+        "image": "./src/images/unit5/lesson1/umbrellas.png",
+        "comparisonType": "longer",
+        "item1": {
+          "name": "yellow umbrella",
+          "color": "yellow",
+          "id": "item1"
+        },
+        "item2": {
+          "name": "red umbrella",
+          "color": "red",
+          "id": "item2"
+        },
+        "correctAnswer": "item2"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l1_q5",
+      "unitId": "unit5",
+      "lessonId": "u5_l1",
+      "type": "length_comparison",
+      "title": "Which One Is Longer?",
+      "instruction": "When you line up one end, which ribbon is longer?",
+      "data": {
+        "image": "./src/images/unit5/lesson1/ribbons.png",
+        "comparisonType": "longer",
+        "item1": {
+          "name": "red ribbon",
+          "color": "red",
+          "id": "item1"
+        },
+        "item2": {
+          "name": "green ribbon",
+          "color": "green",
+          "id": "item2"
+        },
+        "correctAnswer": "item2"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    },
+    {
+      "id": "u5_l1_q6",
+      "unitId": "unit5",
+      "lessonId": "u5_l1",
+      "type": "length_comparison",
+      "title": "Which One Is Longer?",
+      "instruction": "Which is longer, the crayon or the pencil?",
+      "data": {
+        "image": "./src/images/unit5/lesson1/crayon_pencil.png",
+        "comparisonType": "longer",
+        "item1": {
+          "name": "crayon",
+          "color": "green",
+          "id": "item1"
+        },
+        "item2": {
+          "name": "pencil",
+          "color": "purple",
+          "id": "item2"
+        },
+        "correctAnswer": "item2"
+      },
+      "ui": {
+        "showFeedback": true,
+        "autoNext": false,
+        "sound": true
+      }
+    }
+  ]
+}

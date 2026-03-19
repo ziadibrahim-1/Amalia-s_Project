@@ -1,0 +1,336 @@
+{
+  "lessonId": "u7_l5",
+  "unitId": "unit7",
+  "title": "Adding and Subtracting Numbers (Part 2)",
+  "description": "More practice with addition and subtraction 11-19",
+  "questions": [
+    {
+      "id": "u7_l5_q1",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 14 + 3?",
+      "data": {
+        "equation": "14 + 3",
+        "num1": 14,
+        "num2": 3,
+        "correctAnswer": 17,
+        "answerMode": "mcq",
+        "options": [15, 16, 17, 18]
+      }
+    },
+    {
+      "id": "u7_l5_q2",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 16 + 2?",
+      "data": {
+        "equation": "16 + 2",
+        "num1": 16,
+        "num2": 2,
+        "correctAnswer": 18,
+        "answerMode": "mcq",
+        "options": [18, 17, 15, 19]
+      }
+    },
+    {
+      "id": "u7_l5_q3",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 18 + 1?",
+      "data": {
+        "equation": "18 + 1",
+        "num1": 18,
+        "num2": 1,
+        "correctAnswer": 19,
+        "answerMode": "mcq",
+        "options": [17, 18, 16, 19]
+      }
+    },
+    {
+      "id": "u7_l5_q4",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 12 - 1?",
+      "data": {
+        "equation": "12 - 1",
+        "num1": 12,
+        "num2": 1,
+        "correctAnswer": 11,
+        "answerMode": "mcq",
+        "options": [10, 11, 12, 13]
+      }
+    },
+    {
+      "id": "u7_l5_q5",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 14 - 2?",
+      "data": {
+        "equation": "14 - 2",
+        "num1": 14,
+        "num2": 2,
+        "correctAnswer": 12,
+        "answerMode": "mcq",
+        "options": [12, 11, 13, 14]
+      }
+    },
+    {
+      "id": "u7_l5_q6",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 19 - 4?",
+      "data": {
+        "equation": "19 - 4",
+        "num1": 19,
+        "num2": 4,
+        "correctAnswer": 15,
+        "answerMode": "mcq",
+        "options": [14, 15, 16, 17]
+      }
+    },
+    {
+      "id": "u7_l5_q7",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "addition_word_problem",
+      "title": "Word Problem",
+      "instruction": "You have 17 strawberries. If you eat 3, how many are left? Write the mathematical sentence and the answer.",
+      "data": {
+        "problemText": "You have 17 strawberries. If you eat 3, how many are left?",
+        "image": "./src/images/unit7/lesson5/strawberries.png",
+        "num1": 17,
+        "num2": 3,
+        "correctAnswer": 14,
+        "correctEquation": "17 - 3",
+        "answerMode": "full",
+        "answerUnit": "strawberries"
+      }
+    },
+    {
+      "id": "u7_l5_q8",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 12 + 2?",
+      "data": {
+        "equation": "12 + 2",
+        "num1": 12,
+        "num2": 2,
+        "correctAnswer": 14,
+        "answerMode": "mcq",
+        "options": [12, 13, 16, 14]
+      }
+    },
+    {
+      "id": "u7_l5_q9",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 15 + 4?",
+      "data": {
+        "equation": "15 + 4",
+        "num1": 15,
+        "num2": 4,
+        "correctAnswer": 19,
+        "answerMode": "mcq",
+        "options": [17, 18, 19, 20]
+      }
+    },
+    {
+      "id": "u7_l5_q10",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 16 - 1?",
+      "data": {
+        "equation": "16 - 1",
+        "num1": 16,
+        "num2": 1,
+        "correctAnswer": 15,
+        "answerMode": "mcq",
+        "options": [15, 14, 16, 17]
+      }
+    },
+    {
+      "id": "u7_l5_q11",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 19 - 7?",
+      "data": {
+        "equation": "19 - 7",
+        "num1": 19,
+        "num2": 7,
+        "correctAnswer": 12,
+        "answerMode": "mcq",
+        "options": [11, 12, 13, 14]
+      }
+    },
+    {
+      "id": "u7_l5_q12",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "addition_word_problem",
+      "title": "Word Problem",
+      "instruction": "There are 12 children. Then 5 more come. How many children are there now in total? Write the mathematical sentence and the answer.",
+      "data": {
+        "problemText": "There are 12 children. Then 5 more come. How many children are there now in total?",
+        "image": "./src/images/unit7/lesson5/children.png",
+        "num1": 12,
+        "num2": 5,
+        "correctAnswer": 17,
+        "correctEquation": "12 + 5",
+        "answerMode": "full",
+        "answerUnit": "children"
+      }
+    },
+    {
+      "id": "u7_l5_q13",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 13 + 6?",
+      "data": {
+        "equation": "13 + 6",
+        "num1": 13,
+        "num2": 6,
+        "correctAnswer": 19,
+        "answerMode": "mcq",
+        "options": [17, 18, 19, 20]
+      }
+    },
+    {
+      "id": "u7_l5_q14",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 15 + 3?",
+      "data": {
+        "equation": "15 + 3",
+        "num1": 15,
+        "num2": 3,
+        "correctAnswer": 18,
+        "answerMode": "mcq",
+        "options": [16, 17, 20, 18]
+      }
+    },
+    {
+      "id": "u7_l5_q15",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_addition",
+      "title": "Solve the Problem",
+      "instruction": "What is 11 + 3?",
+      "data": {
+        "equation": "11 + 3",
+        "num1": 11,
+        "num2": 3,
+        "correctAnswer": 14,
+        "answerMode": "mcq",
+        "options": [14, 13, 10, 15]
+      }
+    },
+    {
+      "id": "u7_l5_q16",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 16 - 3?",
+      "data": {
+        "equation": "16 - 3",
+        "num1": 16,
+        "num2": 3,
+        "correctAnswer": 13,
+        "answerMode": "mcq",
+        "options": [12, 19, 14, 13]
+      }
+    },
+    {
+      "id": "u7_l5_q17",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 19 - 5?",
+      "data": {
+        "equation": "19 - 5",
+        "num1": 19,
+        "num2": 5,
+        "correctAnswer": 14,
+        "answerMode": "mcq",
+        "options": [13, 14, 15, 16]
+      }
+    },
+    {
+      "id": "u7_l5_q18",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "simple_subtraction",
+      "title": "Solve the Problem",
+      "instruction": "What is 15 - 4?",
+      "data": {
+        "equation": "15 - 4",
+        "num1": 15,
+        "num2": 4,
+        "correctAnswer": 11,
+        "answerMode": "mcq",
+        "options": [10, 12, 11, 13]
+      }
+    },
+    {
+      "id": "u7_l5_q19",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "subtraction_word_problem",
+      "title": "Word Problem",
+      "instruction": "You have 16 candies. You give away 4. How many are left? Write the mathematical sentence and the answer.",
+      "data": {
+        "problemText": "You have 16 candies. You give away 4. How many are left?",
+        "image": "./src/images/unit7/lesson5/candies.png",
+        "num1": 16,
+        "num2": 4,
+        "correctAnswer": 12,
+        "correctEquation": "16 - 4",
+        "answerMode": "full",
+        "answerUnit": "candies"
+      }
+    },
+    {
+      "id": "u7_l5_q20",
+      "unitId": "unit7",
+      "lessonId": "u7_l5",
+      "type": "subtraction_word_problem",
+      "title": "Word Problem",
+      "instruction": "You have 18 notebooks. You used 6. How many are left? Write the mathematical sentence and the answer.",
+      "data": {
+        "problemText": "You have 18 notebooks. You used 6. How many are left?",
+        "image": "./src/images/unit7/lesson5/notebooks.png",
+        "num1": 18,
+        "num2": 6,
+        "correctAnswer": 12,
+        "correctEquation": "18 - 6",
+        "answerMode": "full",
+        "answerUnit": "notebooks"
+      }
+    }
+  ]
+}
