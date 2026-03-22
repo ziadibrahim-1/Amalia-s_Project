@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/times-tables-practice.css">
+</head>
+<body>
+    <div class="header">
+        <a href="times-tables.html" class="back-btn">⬅️ Back to Tables</a>
+        <h1 id="practice-title">Practice</h1>
+        <div class="score-display">Score: ⭐ <span id="score">0</span></div>
+    </div>
+
+    <div class="progress-bar-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    
+    <div class="question-counter">Question <span id="current-q">1</span>/10</div>
+
+    <div class="practice-container" id="practice-container">
+        <div class="visual-display" id="visual-display">
+            <!-- Visual items injected here -->
+        </div>
+
+        <div class="equation-display" id="equation-display">
+            <!-- Equation injected here -->
+            <span id="equation-text"></span>
+            <input type="number" id="answer-input" placeholder="?">
+        </div>
+
+        <button class="check-btn" id="check-btn">Check Answer</button>
+
+        <!-- Feedback Container (Hidden by default) -->
+        <div id="feedbackSection" class="feedback-section" style="display: none; flex-direction: column; align-items: center; margin-top: 20px;">
+            <video id="feedbackVideo" style="width: 200px; height: 200px; border-radius: 15px; margin-bottom: 10px;" playsinline></video>
+            <div id="feedbackMessage" style="font-size: 1.5em; font-weight: bold;"></div>
+        </div>
+    </div>
+
+    <div class="results-container" id="results-container" style="display: none;">
+        <h2>🎉 Practice Complete! 🎉</h2>
+        <div class="final-score">Your Score: <span id="final-score-value">0</span>/10 ⭐</div>
+        <p class="message" id="results-message"></p>
+        <button class="menu-btn" onclick="window.location.href='times-tables.html'">Choose Another Table</button>
+        <button class="retry-btn" onclick="window.location.reload()">Practice Again</button>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="sound-correct" src="corect1.mp4" preload="auto"></audio>
+    <audio id="sound-wrong" src="V2Wrobg.mp4" preload="auto"></audio>
+    <audio id="sound-final" src="VFinal.mp4" preload="auto"></audio>
+
+    <script src="src/scripts/times-tables-practice.js"></script>
+</body>
+</html>

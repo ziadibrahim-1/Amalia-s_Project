@@ -1,0 +1,179 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+.header {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-btn {
+    position: absolute;
+    left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background: rgba(255,255,255,0.2);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.score-display {
+    position: absolute;
+    right: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.progress-bar-container {
+    width: 80%;
+    height: 20px;
+    background: #e0e0e0;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #4caf50;
+    transition: width 0.5s ease;
+}
+
+.question-counter {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.practice-container {
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.visual-display {
+    font-size: 2.5em; /* default for emojis */
+    margin: 30px 0;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.equation-display {
+    font-size: 3em;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    font-size: 1em;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #4facfe;
+}
+
+input.error {
+    animation: shake 0.5s;
+    border-color: #ff5252;
+}
+
+input.correct {
+    border-color: #4caf50;
+}
+
+.check-btn, .menu-btn, .retry-btn {
+    background: #4facfe;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: inherit;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.check-btn:hover, .menu-btn:hover, .retry-btn:hover {
+    transform: scale(1.05);
+    background: #00f2fe;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    height: 40px;
+}
+
+.results-container {
+    background: white;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.final-score {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.message {
+    font-size: 1.5em;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    75% { transform: translateX(10px); }
+}
+
+@keyframes popIn {
+    0% { transform: scale(0); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.visual-item {
+    animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+.group-box {
+    border: 3px solid #ddd;
+    border-radius: 15px;
+    padding: 15px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    background: #fdfdfd;
+}
